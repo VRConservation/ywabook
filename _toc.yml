@@ -4,6 +4,7 @@
 format: jb-book
 root: intro
 chapters:
-- file: overview
-- file: final_report
-- file: geospatial
+- file: 1_overview
+- file: 2_final_report
+- file: 3_swot
+- file: 4_ geospatial
