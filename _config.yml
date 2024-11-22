@@ -3,6 +3,7 @@
 
 title: YWA Forest Health Book
 author: Forest Business Alliance
+copyright: "2024, Built with Jupyter Book"
 logo: fba-square.png
 
 # Force re-execution of notebooks on each build.
