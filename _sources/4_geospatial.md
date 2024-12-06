@@ -18,7 +18,7 @@ We wanted to provide visual representation of risk, treatability, responsibility
 Goal: We want to show who and what is at risk, the level of risk, how accessible treatment is, and who may lead addressing treatment.  
 Overview
 
-### Questions
+## Questions
 We aimed to address the following questions:
 
 - What is at risk? And what is their level of risk? 
@@ -26,8 +26,8 @@ We aimed to address the following questions:
 - Who is responsible for addressing that risk? 
 - If not responsible, where are their opportunities to work together to address risk? 
 - What are some options to address these risks? (Options for treatment) 
-- What are some barriers to treating these risks? (ex: large items that need to be disposed of) 
-- What is missing to address risk? (programs, funding, workforce, access, capacity, etc.) 
+- What are some barriers to treating these risks? (e.g., lack of downscaled data, or funding to mitigate risk) 
+- What is missing to address risk? (programs, funding, workforce, access, capacity and data.) 
 
 ## Geospatial analysis
 
