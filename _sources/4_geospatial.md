@@ -39,13 +39,13 @@ In general the workflow for the geospatial analysis was
 2. Clip the dataset to the AOI
 3. Upload the datasets to the model
 4. Weight and transform each dataset
-5. Run the model combining each weigthed dataset
+5. Run the model combining each weighted dataset
 6. Perform additional analysis as needed, e.g., zonal statistics
 
-The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit {cite:t}`rrk` but others came from FRAP and national level datasets. **Citations**. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville {numref}`location`.
+The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit {cite:t}`resourcekit` but others came from FRAP and national level datasets. **Citations**. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville {numref}`location`.
 
 ```{figure} /figures/location.png
-:height: 300px
+:height: 400px
 :name: location
 Yuba County location in California showing generalized vegegation categories.
 ```
