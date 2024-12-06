@@ -27,18 +27,30 @@ We aimed to address the following questions:
 - If not responsible, where are their opportunities to work together to address risk? 
 - What are some options to address these risks? (Options for treatment) 
 - What are some barriers to treating these risks? (e.g., lack of downscaled data, or funding to mitigate risk) 
-- What is missing to address risk? (programs, funding, workforce, access, capacity and data.) 
+- What is missing to address risk? (e.g., programs, funding, workforce, access, capacity and data.) 
 
 ## Geospatial analysis
+We created three models based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources in question. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them and then combined them in a single model. Each model output had the option of creating a report showing the datasets, weighting and visual representation of the work flow. The only downside of using the suitability modeler is it tended to crash the software when datasets were large. To address this we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
+
+In general the workflow for the geospatial analysis was
+
+1. Download or link rest services for the datasets. 
+2. Clip the dataset to the AOI
+3. Upload the datasets to the model
+4. Weight and transform each dataset
+5. Run the model combining each weigthed dataset
+6. Perform additional analysis as needed, e.g., zonal statistics
+
+The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit {cite}`rrk` but others came from FRAP and national level datasets. **Citations**.
 
 ### Areas at risk
 
 ### Communities
 
-### Infrastructure
+### Water infrastructure
 
-### Barriers
+## Barriers
 To addressing risks
 
-### Opportunities
+## Opportunities
 To addressing risks
