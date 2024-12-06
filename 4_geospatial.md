@@ -52,7 +52,20 @@ Yuba County location in California showing generalized vegegation categories.
 Other datasets are cited in each section or within each figure below in the text.
 
 ### Egress risk
+The egress risk analysis did not work well with the suitability modeler tool so we weighted and added the rasters together using Python and a Jupyter notebook ({numref}`egress`). The rasters and percent weighting were as follows
 
+- Distance to cell tower (20%)
+- Annual burn probability (40%)
+- Ember load index (20%)
+- Road density (20%)
+- Population density (-10%). Reversed since the higher the population the more difficult it may be to exit
+- Slope (10%)
+
+```{figure} /figures/egress.png
+:height: 600px
+:name: egress
+Wildfire egress risk analysis.
+```
 
 ### Vulnerable communities
 Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them ({numref}`structures`). This may be due to a mismatch between treatment timing and dataset development or even a lag between impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground-truthing, or anecdotal evidence could uncover the reason behind this phenomena.
