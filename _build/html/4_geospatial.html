@@ -381,13 +381,13 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geospatial-analysis">Geospatial analysis</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#areas-at-risk">Areas at risk</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#communities">Communities</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructure">Infrastructure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers">Barriers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities">Opportunities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#egress-risk">Egress risk</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vulnerable-communities">Vulnerable communities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#water-infrastructure">Water infrastructure</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers">Barriers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities">Opportunities</a></li>
 </ul>
             </nav>
         </div>
@@ -423,28 +423,45 @@ Overview</p>
 <li><p>If not responsible, where are their opportunities to work together to address risk?</p></li>
 <li><p>What are some options to address these risks? (Options for treatment)</p></li>
 <li><p>What are some barriers to treating these risks? (e.g., lack of downscaled data, or funding to mitigate risk)</p></li>
-<li><p>What is missing to address risk? (programs, funding, workforce, access, capacity and data.)</p></li>
+<li><p>What is missing to address risk? (e.g., programs, funding, workforce, access, capacity and data.)</p></li>
 </ul>
 </section>
 <section id="geospatial-analysis">
 <h2>Geospatial analysis<a class="headerlink" href="#geospatial-analysis" title="Link to this heading">#</a></h2>
-<section id="areas-at-risk">
-<h3>Areas at risk<a class="headerlink" href="#areas-at-risk" title="Link to this heading">#</a></h3>
+<p>We created three models based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources in question. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them and then combined them in a single model. Each model output had the option of creating a report showing the datasets, weighting and visual representation of the work flow. The only downside of using the suitability modeler is it tended to crash the software when datasets were large. To address this we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.</p>
+<p>In general the workflow for the geospatial analysis was</p>
+<ol class="arabic simple">
+<li><p>Download or link rest services for the datasets.</p></li>
+<li><p>Clip the dataset to the AOI</p></li>
+<li><p>Upload the datasets to the model</p></li>
+<li><p>Weight and transform each dataset</p></li>
+<li><p>Run the model combining each weigthed dataset</p></li>
+<li><p>Perform additional analysis as needed, e.g., zonal statistics</p></li>
+</ol>
+<p>The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit <span id="id1">[]</span> but others came from FRAP and national level datasets. <strong>Citations</strong>. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville <a class="reference internal" href="#location"><span class="std std-numref">Fig. 1</span></a>.</p>
+<figure class="align-default" id="location">
+<a class="reference internal image-reference" href="_images/location.png"><img alt="_images/location.png" src="_images/location.png" style="height: 300px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Yuba County location in California showing generalized vegegation categories.</span><a class="headerlink" href="#location" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="egress-risk">
+<h3>Egress risk<a class="headerlink" href="#egress-risk" title="Link to this heading">#</a></h3>
 </section>
-<section id="communities">
-<h3>Communities<a class="headerlink" href="#communities" title="Link to this heading">#</a></h3>
+<section id="vulnerable-communities">
+<h3>Vulnerable communities<a class="headerlink" href="#vulnerable-communities" title="Link to this heading">#</a></h3>
 </section>
-<section id="infrastructure">
-<h3>Infrastructure<a class="headerlink" href="#infrastructure" title="Link to this heading">#</a></h3>
+<section id="water-infrastructure">
+<h3>Water infrastructure<a class="headerlink" href="#water-infrastructure" title="Link to this heading">#</a></h3>
+</section>
 </section>
 <section id="barriers">
-<h3>Barriers<a class="headerlink" href="#barriers" title="Link to this heading">#</a></h3>
+<h2>Barriers<a class="headerlink" href="#barriers" title="Link to this heading">#</a></h2>
 <p>To addressing risks</p>
 </section>
 <section id="opportunities">
-<h3>Opportunities<a class="headerlink" href="#opportunities" title="Link to this heading">#</a></h3>
+<h2>Opportunities<a class="headerlink" href="#opportunities" title="Link to this heading">#</a></h2>
 <p>To addressing risks</p>
-</section>
 </section>
 </section>
 
@@ -506,13 +523,13 @@ Overview</p>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geospatial-analysis">Geospatial analysis</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#areas-at-risk">Areas at risk</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#communities">Communities</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructure">Infrastructure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers">Barriers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities">Opportunities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#egress-risk">Egress risk</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vulnerable-communities">Vulnerable communities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#water-infrastructure">Water infrastructure</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers">Barriers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities">Opportunities</a></li>
 </ul>
   </nav></div>
 
