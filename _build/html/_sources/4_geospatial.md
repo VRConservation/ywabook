@@ -42,7 +42,7 @@ In general the workflow for the geospatial analysis was
 5. Run the model combining each weighted dataset
 6. Perform additional analysis as needed, e.g., zonal statistics
 
-The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit but others came from FRAP and national level datasets {cite}`resourcekit`. **Other Citations**. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville {numref}`location`.
+The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit but others came from FRAP and national level datasets {cite}`resourcekit`. **Other Citations**. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville ({numref}`location`).
 
 ```{figure} /figures/location.png
 :height: 400px
@@ -56,15 +56,31 @@ Other datasets are cited in each section or within each figure below in the text
 
 ### Vulnerable communities
 
+({numref}`structures`)
+
+```{figure} /figures/structures.png
+:height: 600px
+:name: structures
+Wildfire threat community structures.
+```
 
 ### Water infrastructure
-
+When we took ember load index, annual burn probability, distance from dams, and post-fire erosion risk, higher risk categories were still in the NE portion of the county, but there were large areas of lower risk scattered throughout the region ({numref}`water`).
 
 ```{figure} /figures/water.png
-:height: 500px
+:height: 600px
 :name: water
-Wildfire threat to water infrastructure
+Wildfire threat to water infrastructure.
 ```
+
+The smaller reservoir, Collins Lake, for instance showed mostly low risk around its shoreline, except a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from water areas ({numref}`nbb`). Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire {cite}`safford`.
+
+```{figure} /figures/nbb.png
+:height: 600px
+:name: nbb
+Zoom in to New Bullards Bar Reservoir showing low risk nearshore and high risk further afield.
+```
+
 ## Barriers
 To addressing risks
 
