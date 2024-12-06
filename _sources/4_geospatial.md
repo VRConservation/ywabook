@@ -42,13 +42,14 @@ In general the workflow for the geospatial analysis was
 5. Run the model combining each weighted dataset
 6. Perform additional analysis as needed, e.g., zonal statistics
 
-The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit {cite:t}`resourcekit` but others came from FRAP and national level datasets. **Citations**. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville {numref}`location`.
+The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit but others came from FRAP and national level datasets {cite}`resourcekit`. **Other Citations**. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville {numref}`location`.
 
 ```{figure} /figures/location.png
 :height: 400px
 :name: location
 Yuba County location in California showing generalized vegegation categories.
 ```
+Other datasets are cited in each section or within each figure below in the text.
 
 ### Egress risk
 
@@ -59,6 +60,11 @@ Yuba County location in California showing generalized vegegation categories.
 ### Water infrastructure
 
 
+```{figure} /figures/water.png
+
+:name: water
+Wildfire threat to water infrastructure
+```
 ## Barriers
 To addressing risks
 
