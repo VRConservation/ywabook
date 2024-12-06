@@ -1,4 +1,4 @@
-# Yuba Geospatial Analysis
+# Geospatial Analysis
 
 ## Introduction
 Agency and business focus on forest health and treatment is a recognized priority of California. Workforce and business development is a key part of the State’s efforts toward improving forest health, in large part to reduce wildfire risk and damage. This report focuses on Yuba County as a case study in statewide efforts to reestablish a forest-focused industry, treat forests, and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests. 
@@ -61,7 +61,7 @@ Other datasets are cited in each section or within each figure below in the text
 
 
 ```{figure} /figures/water.png
-
+:height: 500px
 :name: water
 Wildfire threat to water infrastructure
 ```
