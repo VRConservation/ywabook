@@ -59,7 +59,7 @@ Communities in the heart of the high wildfire risk have slightly different threa
 
 
 ```{figure} /figures/structures.png
-:height: 600px
+:height: 500px
 :name: structures
 Wildfire threat community structures.
 ```
