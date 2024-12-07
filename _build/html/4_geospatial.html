@@ -380,7 +380,6 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Geospatial analysis</a><ul class="nav section-nav flex-column">
@@ -404,23 +403,24 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="geospatial-analysis">
 <h1>Geospatial Analysis<a class="headerlink" href="#geospatial-analysis" title="Link to this heading">#</a></h1>
-<section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
-<p>Agency and business focus on forest health and treatment is a recognized priority of California. Workforce and business development is a key part of the State’s efforts toward improving forest health, in large part to reduce wildfire risk and damage. This report focuses on Yuba County as a case study in statewide efforts to reestablish a forest-focused industry, treat forests, and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests.</p>
-<p>Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills. The vegetation cover and topography changes dramatically, from level grasslands in west County to step, forested slopes in east County. The county’s water infrastructure and communities are spread across this varying landscape.</p>
-<p>Yuba County’s forested areas have small, remote communities. Often bordering public lands, these communities are the most densely vegetated, and spread from community centers into the wildland urban interface. Ranging from (population size), these communities (age, poverty, home ownership -second, primary).</p>
-<p>Publicly managed forests in Yuba county, like many across California, experienced a shift in management over the past 30 years that moved from timber production. A result is more densely vegetated areas at risk for forest fires. Wile areas surrounding Yuba county have seen catastrophic fires covering large geographic areas in the last decade, Yuba County has experienced smaller scale fires. Mitigation for more damaging wildfires is a priority for the County, communities, Firesafe Council, and Yuba County Water Agency.</p>
-<p>Water and electrical infrastructure are (constructed, established, ) among the foothills, both serving the communities in east County, and the more populated communities in west county. Roadways (type and responsibility for maintenance) are an important factor in access, what is treated, and who is responsible for treatment.</p>
-<p>Local officials, agencies, and communities want to improve forest conditions. Yet, they find themselves confronted by barriers. In Yuba county, some barriers identified are (barriers identified at a Firesafe Council community meeting on October 9, 2024 included)</p>
-<p>We wanted to provide visual representation of risk, treatability, responsibility or partnership, and priority. These questions lead us to who and what are at risk, and what is their risk level?</p>
-<p>Goal: We want to show who and what is at risk, the level of risk, how accessible treatment is, and who may lead addressing treatment.</p>
-</section>
+<p>An analysis of communities and infrastructure at risk in Yuba County</p>
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<p>Agency and business focus on forest health and treatment is a recognized priority of California. Workforce and business development is a key part of the State’s efforts toward improving forest health, in large part to reduce wildfire risk and damage. This report focuses on Yuba County as a case study in statewide efforts to reestablish a forest-focused industry, treat forests, and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests.</p>
+<p>Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills (<a class="reference internal" href="#location"><span class="std std-numref">Fig. 1</span></a>). The vegetation cover and topography changes dramatically, from level grasslands in west County to step, forested slopes in east County. The county’s water infrastructure and communities are spread across this varying landscape. Yuba County’s forested areas have small, remote communities. Often bordering public lands, these communities are the most densely vegetated, and spread from community centers into the wildland urban interface. Ranging from (population size), these communities (age, poverty, home ownership -second, primary).</p>
+<figure class="align-default" id="location">
+<a class="reference internal image-reference" href="_images/location.png"><img alt="_images/location.png" src="_images/location.png" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Yuba County location in California showing generalized vegegation categories.</span><a class="headerlink" href="#location" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Publicly managed forests in Yuba County, like many across California, experienced a shift in management over the past 30 years that moved from timber production. A result is more densely vegetated areas at risk for forest fires. Wile areas surrounding Yuba County have seen catastrophic fires covering large geographic areas in the last decade, Yuba County has experienced smaller scale fires. Mitigation for more damaging wildfires is a priority for the County, communities, Firesafe Council, and Yuba County Water Agency.</p>
+<p>Water and electrical infrastructure are established among the foothills, both serving the communities in east County, and the more populated communities in west county. Roadways (type and responsibility for maintenance) are an important factor in access, what is treated, and who is responsible for treatment. Local officials, agencies, and communities want to improve forest conditions. Yet, they find themselves confronted by barriers. In Yuba County, some barriers identified are (barriers identified at a Firesafe Council community meeting on October 9, 2024 included)</p>
+<p>We wanted to provide visual representation of risk, treatability, responsibility or partnership, and priority. These questions lead us to who and what are at risk, and what is their risk level?</p>
 </section>
 <section id="questions">
 <h2>Questions<a class="headerlink" href="#questions" title="Link to this heading">#</a></h2>
-<p>We aimed to address the following questions:</p>
+<p>To conduct the study, we aimed to address the following questions:</p>
 <ul class="simple">
 <li><p>What is at risk? And what is their level of risk?</p></li>
 <li><p>Who is at risk? And what is their level of risk?</p></li>
@@ -443,14 +443,7 @@ document.write(`
 <li><p>Run the model combining each weighted dataset</p></li>
 <li><p>Perform additional analysis as needed, e.g., zonal statistics</p></li>
 </ol>
-<p>The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit but others came from FRAP and national level datasets <span id="id2">[<a class="reference internal" href="bibliography.html#id2" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">YHSMC24</a>]</span>. <strong>Other Citations</strong>. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville (<a class="reference internal" href="#location"><span class="std std-numref">Fig. 1</span></a>).</p>
-<figure class="align-default" id="location">
-<a class="reference internal image-reference" href="_images/location.png"><img alt="_images/location.png" src="_images/location.png" style="height: 400px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Yuba County location in California showing generalized vegegation categories.</span><a class="headerlink" href="#location" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
-<p>Other datasets are cited in each section or within each figure below in the text.</p>
+<p>The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit but others came from FRAP and national level datasets <span id="id2">[<a class="reference internal" href="bibliography.html#id3" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">YHSMC24</a>]</span>. <strong>Other Citations</strong>. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.</p>
 <section id="egress-risk">
 <h3>Egress risk<a class="headerlink" href="#egress-risk" title="Link to this heading">#</a></h3>
 <p>The egress risk analysis did not work well with the suitability modeler tool so we weighted and added the rasters together using Python and a Jupyter notebook (<a class="reference internal" href="#egress"><span class="std std-numref">Fig. 2</span></a>). The rasters and percent weighting were as follows</p>
@@ -478,11 +471,11 @@ document.write(`
 <p><span class="caption-number">Fig. 3 </span><span class="caption-text">Wildfire threat community structures.</span><a class="headerlink" href="#structures" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>However, it may very well be that treatments are effective. If we zoom into Brownsville and Camptonville, many of the treated areas have lower risk levels (<code class="xref std std-numref docutils literal notranslate"><span class="pre">comm-zoom.png</span></code>). In fact, zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).</p>
+<p>However, it may very well be that treatments are effective. If we zoom into Brownsville and Camptonville, many of the treated areas have lower risk levels (<code class="xref std std-numref docutils literal notranslate"><span class="pre">comm_zoom.png</span></code>). In fact, zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).</p>
 <figure class="align-default" id="comm-zoom">
 <a class="reference internal image-reference" href="_images/comm_zoom.png"><img alt="_images/comm_zoom.png" src="_images/comm_zoom.png" style="height: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Zoom in to the Brownsville/Camptonville region showing treatments and risk index levels.</span><a class="headerlink" href="#comm-zoom" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.</span><a class="headerlink" href="#comm-zoom" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -495,11 +488,11 @@ document.write(`
 <p><span class="caption-number">Fig. 5 </span><span class="caption-text">Wildfire threat to water infrastructure.</span><a class="headerlink" href="#water" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>The smaller reservoir, Collins Lake, for instance showed mostly low risk around its shoreline, except a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from water areas (<a class="reference internal" href="#nbb"><span class="std std-numref">Fig. 6</span></a>). Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire <span id="id3">[<a class="reference internal" href="bibliography.html#id3" title="Hugh D Safford, David A Schmidt, and Chris H Carlson. Effects of fuel treatments on fire severity in an area of wildland–urban interface, angora fire, lake tahoe basin, california. Forest Ecology and Management, 258(5):773–787, 2009.">SSC09</a>]</span>.</p>
+<p>The smaller reservoir, Collins Lake, for instance showed mostly low risk around its shoreline, except a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from water areas (<a class="reference internal" href="#nbb"><span class="std std-numref">Fig. 6</span></a>). Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire <span id="id3">[<a class="reference internal" href="bibliography.html#id5" title="Hugh D Safford, David A Schmidt, and Chris H Carlson. Effects of fuel treatments on fire severity in an area of wildland–urban interface, angora fire, lake tahoe basin, california. Forest Ecology and Management, 258(5):773–787, 2009.">SSC09</a>]</span>.</p>
 <figure class="align-default" id="nbb">
-<a class="reference internal image-reference" href="_images/nbb.png"><img alt="_images/nbb.png" src="_images/nbb.png" style="height: 600px;" /></a>
+<a class="reference internal image-reference" href="_images/nbb.png"><img alt="_images/nbb.png" src="_images/nbb.png" style="height: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Zoom in to New Bullards Bar Reservoir showing low risk nearshore and high risk further afield.</span><a class="headerlink" href="#nbb" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">A closer look at the New Bullards Bar Reservoir reveals low risk nearshore and high risk further afield.</span><a class="headerlink" href="#nbb" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -578,7 +571,6 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Geospatial analysis</a><ul class="nav section-nav flex-column">
