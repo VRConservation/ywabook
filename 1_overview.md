@@ -7,7 +7,7 @@ Most of forested California is under threat from wildfire due to more than a cen
 ```{figure} /figures/fires.png
 :height: 600px
 :name: fires
-Wildfires since 2020 in the Northern Sierra Nevada.
+Large wildfires since 2020 in the Northern Sierra Nevada.
 ```
 
 The County has a good head start on forest treatments often funded by the Yuba Water Agency and implemented by the Yuba Firesafe Council. However, as shown in the geospatial chapter, risks are high and threats to communities and water infrastructure still exist despite these efforts. Hopefully, continued funding and efforts mitigate these risks and the catastrophic fires in surrounding regions do not come to bear in Yuba County.
