@@ -1,4 +1,5 @@
-# SWOT Analysis
+# SWOT
+A strength weaknesses, opportunities, threats analysis of the Yuba forest landscape and organizations.
 
 ## Background
 The need for coordinated, large-scale land management in Yuba County’s forested foothills and upper watershed region has been gaining attention and momentum in recent years, as catastrophic wildfire is understood as an increasingly urgent issue. The Yuba Forest Business Alliance (Yuba FBA) developed this report/document to explore and analyze the conditions, organizations, and characteristics that shape the landscape and its management. Our hope is that this report/document can assist with identifying strategies to strengthen coordination and understanding of forest-related needs.  
