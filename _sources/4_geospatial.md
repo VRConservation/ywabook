@@ -80,7 +80,7 @@ Wildfire threat community structures.
 However, it may very well be that treatments are effective. If we zoom into Brownsville and Camptonville, many of the treated areas have lower risk levels ({numref}`comm-zoom.png`). In fact, zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).
 
 ```{figure} /figures/comm_zoom.png
-:height: 600px
+:height: 720px
 :name: comm-zoom
 Zoom in to the Brownsville/Camptonville region showing treatments and risk index levels.
 ```
