@@ -1,6 +1,11 @@
 # Geospatial
 A geospatial analysis of communities and infrastructure at risk in Yuba County.
 
+## Takeaways
+1. Where are communities and areas most at risk?
+2. General findings
+3. Suggestions for more analysis
+
 ## Overview
 Agency and business focus on forest health and treatment is a recognized priority of California. Workforce and business development is a key part of the State’s efforts toward improving forest health, in large part to reduce wildfire risk and damage. This report focuses on Yuba County as a case study in statewide efforts to reestablish a forest-focused industry, treat forests, and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests. 
 
