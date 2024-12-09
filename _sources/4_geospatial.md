@@ -7,7 +7,7 @@ Agency and business focus on forest health and treatment is a recognized priorit
 Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills ({numref}`location`). The vegetation cover and topography changes dramatically, from level grasslands in west County to step, forested slopes in east County. The county’s water infrastructure and communities are spread across this varying landscape. Yuba County’s forested areas have small, remote communities. Often bordering public lands, these communities are the most densely vegetated, and spread from community centers into the wildland urban interface. Ranging from (population size), these communities (age, poverty, home ownership -second, primary). 
 
 ```{figure} /figures/location.png
-:height: 400px
+:height: 600px
 :name: location
 Yuba County location in California showing generalized vegegation categories.
 ```
