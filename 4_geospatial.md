@@ -2,9 +2,10 @@
 A geospatial analysis of communities and infrastructure at risk in Yuba County.
 
 ## Takeaways
-1. Where are communities and areas most at risk?
-2. General findings
-3. Suggestions for more analysis
+1. The **Yuba County communities** most at risk from wildfire are located in the Northeast portion of the county. Approximately in risk order they are Brownsville, Dobbins, and Camptonville. However, Brownsville and Camptonville carry more difficulty for egress during a wildfire event, likely due being more remote than Dobbins. **TRUE?**
+2. **Water infastructure** at risk is nuanced and depends on location. The upper and lower watershed at New Bullards Bar has higher risk than the middle watershed. Riparian areas are generally at high risk. The area to the southeast of Collins Lake is at higher risk but much of the area surround the lake is at low risk. Land surrounding Lake Francis is at low risk but much of the land to the east of the lake is high risk. Englebright Dam and surrounding riparian areas are at high risk.
+3. Downscaled, updated, or created datasets such as climate change data, forest condition, and road condition would make the 
+risk analyses more accurate.
 
 ## Overview
 Agency and business focus on forest health and treatment is a recognized priority of California. Workforce and business development is a key part of the State’s efforts toward improving forest health, in large part to reduce wildfire risk and damage. This report focuses on Yuba County as a case study in statewide efforts to reestablish a forest-focused industry, treat forests, and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests. 
@@ -34,7 +35,7 @@ To conduct the study, we aimed to address the following questions:
 - What are some barriers to treating these risks? (e.g., lack of downscaled data, or funding to mitigate risk) 
 - What is missing to address risk? (e.g., programs, funding, workforce, access, capacity and data.) 
 
-## Geospatial analysis
+## Geospatial Analysis
 We created three models based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources in question. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them and then combined them in a single model. Each model output had the option of creating a report showing the datasets, weighting and visual representation of the work flow. The only downside of using the suitability modeler is it tended to crash the software when datasets were large. To address this we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
 
 In general the workflow for the geospatial analysis was
@@ -48,8 +49,8 @@ In general the workflow for the geospatial analysis was
 
 The majority of datasets were downloaded from the Sierra Nevada Regional Resource Kit but others came from FRAP and national level datasets {cite}`resourcekit`. **Other Citations**. In general risk for any of the analyses increased moving from lower to higher elevations and agricultural to forested systems. Not surprising since we were were relying on datasets largely focused on fire and forest, but not great for the communities in the extreme northeast of county such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.
 
-### Egress risk
-The egress risk analysis did not work well with the suitability modeler tool so we weighted and added the rasters together using Python and a Jupyter notebook ({numref}`egress`). The rasters and percent weighting were as follows
+### Egress Rsk
+The egress risk analysis did not work well with the suitability modeler tool so we weighted and added the rasters together using Python and a Jupyter notebook. The rasters and percent weighting were as follows
 
 - Distance to cell tower (20%)
 - Annual burn probability (40%)
@@ -58,15 +59,16 @@ The egress risk analysis did not work well with the suitability modeler tool so 
 - Population density (-10%). Reversed since the higher the population the more difficult it may be to exit
 - Slope (10%)
 
+The results show higher egress risk or difficulty for Brownsville and Camptonville, likely due to their remote location and distance to major roads ({numref}`egress`).
+
 ```{figure} /figures/egress.png
 :height: 600px
 :name: egress
 Wildfire egress risk analysis.
 ```
 
-### Vulnerable communities
+### Vulnerable Communities
 Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them ({numref}`structures`). This may be due to a mismatch between treatment timing and dataset development or even a lag between impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground-truthing, or anecdotal evidence could uncover the reason behind this phenomena.
-
 
 ```{figure} /figures/structures.png
 :height: 600px
@@ -82,7 +84,7 @@ However, it may very well be that treatments are effective. If we zoom into Brow
 A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.
 ```
 
-### Water infrastructure
+### Water Infrastructure
 When we took ember load index, annual burn probability, distance from dams, and post-fire erosion risk, higher risk categories were still in the NE portion of the county, but there were large areas of lower risk scattered throughout the region ({numref}`water`).
 
 ```{figure} /figures/water.png
@@ -99,8 +101,5 @@ The smaller reservoir, Collins Lake, for instance showed mostly low risk around 
 A closer look at the New Bullards Bar Reservoir reveals low risk nearshore and high risk further afield.
 ```
 
-## Barriers
-To addressing risks
-
-## Opportunities
-To addressing risks
+## Barriers & Opportunities
+Downscaled datasets for the County are generally non-existent or not focused to wildfire risk analysis, although the Regional Resource Kit data generally was very useful for this exercise. Finer scale data and groundtruthing would help make the analysis much more accurate and possibly show specific parcels or forest stands most at risk or in need of thinning or prescribed fire treatments.
