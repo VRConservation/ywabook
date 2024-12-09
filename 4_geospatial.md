@@ -35,7 +35,7 @@ To conduct the study, we aimed to address the following questions:
 - What are some barriers to treating these risks? (e.g., lack of downscaled data or funding to mitigate risk) 
 - What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data.) 
 
-## Geospatial Analysis
+## Methods
 We created three models based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output could create a report showing the datasets, weighting, and visual representation of the workflow. The only downside of using the suitability modeler is that it tended to crash the software when large datasets were large. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
 
 In general, the workflow for the geospatial analysis was
@@ -49,7 +49,7 @@ In general, the workflow for the geospatial analysis was
 
 Most datasets were downloaded from the Sierra Nevada Regional Resource Kit, but others came from FRAP and national level datasets {cite}`resourcekit`. **Other Citations**. Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets that focused on fire and forest. Still, it is not great for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.
 
-### Egress Rsk
+## Egress Risk
 The egress risk analysis did not work well with the suitability modeler tool, so we weighted and added the rasters using Python and a Jupyter notebook. The rasters and percent weighting were as follows:
 
 - Distance to cell tower (20%)
@@ -67,7 +67,7 @@ The results show higher egress risk or difficulty for Brownsville and Camptonvil
 Wildfire egress risk analysis.
 ```
 
-### Vulnerable Communities
+## Vulnerable Communities
 Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them ({numref}`structures`). This may be due to a mismatch between treatment timing and dataset development or even a lag between the impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground truth, or anecdotal evidence could uncover the reason behind this phenomenon.
 
 ```{figure} /figures/structures.png
@@ -84,7 +84,7 @@ However, it may very well be that treatments are effective. If we zoom into Brow
 A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.
 ```
 
-### Water Infrastructure
+## Water Infrastructure
 When we took ember load index, annual burn probability, distance from dams, and post-fire erosion risk, higher risk categories were still in the NE portion of the county, but there were large areas of lower risk scattered throughout the region ({numref}`water`).
 
 ```{figure} /figures/water.png
