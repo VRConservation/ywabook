@@ -93,7 +93,7 @@ When we took ember load index, annual burn probability, distance from dams, and 
 Wildfire threat to water infrastructure.
 ```
 
-Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from water areas ({numref}`nbb`). Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire {cite}`safford`.
+Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from from the reservoir ({numref}`nbb`). The upper and lower watersheds of New Bullards Bar generally had higher risk. Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire {cite}`safford`. Riparian areas on the Yuba River between New Bullards Bar and Englebright dam, seemed particularly high.
 
 ```{figure} /figures/nbb.png
 :height: 400px
