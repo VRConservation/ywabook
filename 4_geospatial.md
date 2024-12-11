@@ -100,6 +100,13 @@ Collins Lake, for instance, showed mostly low risk around its shoreline, except 
 :name: nbb
 A closer look at the New Bullards Bar Reservoir reveals low-risk nearshore and high-risk, particularly north and south of the dam.
 ```
+Examining the average pixel value for the Risk Index across public lands showed that federal lands were at high risk, where lower elevation county and state lands were low risk ({numref}`agency`). Yuba Water Agency ranked in between, likely given the mix of low to high risk land across its holdings.
+
+```{figure} /figures/agency.png
+:height: 400px
+:name: agency
+Average value by pixel across public land ownerships. The nonprofit value is for one landholding at Rice's Crossing Reserve along the Yuba River and owned by the Bear Yuba Land Trust.
+```
 
 ## Barriers & Opportunities
 Downscaled datasets for the County are generally non-existent or not focused on wildfire risk analysis, although the Regional Resource Kit data was generally very useful for this exercise. Finer-scale data and ground-truthing would help make the analysis much more accurate and possibly show specific parcels or forest stands most at risk or in need of thinning or prescribed fire treatments.
