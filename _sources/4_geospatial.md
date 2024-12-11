@@ -98,7 +98,7 @@ Collins Lake, for instance, showed mostly low risk around its shoreline, except 
 ```{figure} /figures/nbb.png
 :height: 400px
 :name: nbb
-A closer look at the New Bullards Bar Reservoir reveals low-risk nearshore and high-risk further afield.
+A closer look at the New Bullards Bar Reservoir reveals low-risk nearshore and high-risk, particularly north and south of the dam.
 ```
 
 ## Barriers & Opportunities
