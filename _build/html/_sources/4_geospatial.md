@@ -103,7 +103,7 @@ A closer look at the New Bullards Bar Reservoir reveals low-risk nearshore and h
 Examining the average pixel value for the Risk Index across public lands showed that federal lands were at high risk, where lower elevation county and state lands were low risk ({numref}`agency`). Yuba Water Agency ranked in between, likely given the mix of low to high risk land across its holdings.
 
 ```{figure} /figures/agency.png
-:height: 600px
+:height: 400px
 :name: agency
 Average value by pixel across public land ownerships. The nonprofit value is for one landholding at Rice's Crossing Reserve along the Yuba River and owned by the Bear Yuba Land Trust.
 ```
