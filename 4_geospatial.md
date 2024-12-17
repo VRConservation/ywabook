@@ -75,6 +75,7 @@ Although we didn't add age as a factor to egress risk, populations over 65 are m
 Percent of Yuba County residents over 65.
 ```
 
+## Vulnerable Communities
 Poverty and wildfire risk are linked in that higher risk areas tend to be in disadvantaged communities {cite:p}`hino`. Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas ({numref}`poverty`). Nevertheless, in the NE corner of the county poverty percentage is in the 2nd highest level, so these communities are much more prone to egress risk and fire damage.
 
 ```{figure} /figures/poverty.png
@@ -83,7 +84,6 @@ Poverty and wildfire risk are linked in that higher risk areas tend to be in dis
 Percent of Yuba County residents affected by poverty.
 ```
 
-## Vulnerable Communities
 Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them ({numref}`structures`). This may be due to a mismatch between treatment timing and dataset development or even a lag between the impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground truth, or anecdotal evidence could uncover the reason behind this phenomenon.
 
 ```{figure} /figures/structures.png
