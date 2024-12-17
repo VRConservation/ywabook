@@ -451,7 +451,7 @@ risk analyses more accurately.</p></li>
 <li><p>Run the model combining each weighted dataset</p></li>
 <li><p>Perform additional analysis as needed, e.g., zonal statistics</p></li>
 </ol>
-<p>Most datasets were downloaded from the Sierra Nevada Regional Resource Kit, but others came from FRAP and national level datasets <span id="id1">[<a class="reference internal" href="bibliography.html#id3" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">YHSMC24</a>]</span>. <strong>Other Citations</strong>. Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets that focused on fire and forest. Still, it is not great for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.</p>
+<p>Most datasets were downloaded from the Sierra Nevada Regional Resource Kit, but others came from FRAP and national level datasets <span id="id1">[<a class="reference internal" href="bibliography.html#id5" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">YHSMC24</a>]</span>. <strong>Other Citations</strong>. Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets that focused on fire and forest. Still, it is not great for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.</p>
 </section>
 <section id="egress-risk">
 <h2>Egress Risk<a class="headerlink" href="#egress-risk" title="Link to this heading">#</a></h2>
@@ -471,45 +471,66 @@ risk analyses more accurately.</p></li>
 <p><span class="caption-number">Fig. 3 </span><span class="caption-text">Wildfire egress risk analysis.</span><a class="headerlink" href="#egress" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
+<p>Although we didn’t add age as a factor to egress risk, populations over 65 are more vulnerable to wildfire due to lower mobility, lack of access or knowledge of tech, and aging housing or inability to implement home hardening (<a class="reference internal" href="#over65"><span class="std std-numref">Fig. 4</span></a>).</p>
+<figure class="align-default" id="over65">
+<a class="reference internal image-reference" href="_images/over65.png"><img alt="_images/over65.png" src="_images/over65.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Percent of Yuba County residents over 65.</span><a class="headerlink" href="#over65" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Poverty and wildfire risk are linked in that higher risk areas tend to be in disadvantaged communities <span id="id2">[]</span>. Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas (<a class="reference internal" href="#poverty"><span class="std std-numref">Fig. 5</span></a>). Nevertheless, in the NE corner of the county poverty percentage is in the 2nd highest level, so these communities are much more prone to egress risk and fire damage.</p>
+<figure class="align-default" id="poverty">
+<a class="reference internal image-reference" href="_images/poverty.png"><img alt="_images/poverty.png" src="_images/poverty.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Percent of Yuba County residents affected by poverty.</span><a class="headerlink" href="#poverty" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="vulnerable-communities">
 <h2>Vulnerable Communities<a class="headerlink" href="#vulnerable-communities" title="Link to this heading">#</a></h2>
-<p>Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them (<a class="reference internal" href="#structures"><span class="std std-numref">Fig. 4</span></a>). This may be due to a mismatch between treatment timing and dataset development or even a lag between the impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground truth, or anecdotal evidence could uncover the reason behind this phenomenon.</p>
+<p>Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them (<a class="reference internal" href="#structures"><span class="std std-numref">Fig. 6</span></a>). This may be due to a mismatch between treatment timing and dataset development or even a lag between the impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground truth, or anecdotal evidence could uncover the reason behind this phenomenon.</p>
 <figure class="align-default" id="structures">
 <a class="reference internal image-reference" href="_images/structures.png"><img alt="_images/structures.png" src="_images/structures.png" style="height: 600px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Wildfire threat community structures.</span><a class="headerlink" href="#structures" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Wildfire threat community structures.</span><a class="headerlink" href="#structures" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Community members identified unoccupied housing as a wildfire threat since home hardening may be less likely to occur for property maintenance and owners may not be able to extinguish smaller fires before they explode (<a class="reference internal" href="#empty"><span class="std std-numref">Fig. 7</span></a>). Note that the highest incidence of empty housing tracks the highest wildfire risk areas in the County.</p>
+<figure class="align-default" id="empty">
+<a class="reference internal image-reference" href="_images/empty.png"><img alt="_images/empty.png" src="_images/empty.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Percent empty housing units in Yuba County.</span><a class="headerlink" href="#empty" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>However, it may very well be that treatments are effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels (<code class="xref std std-numref docutils literal notranslate"><span class="pre">comm_zoom.png</span></code>). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).</p>
 <figure class="align-default" id="comm-zoom">
 <a class="reference internal image-reference" href="_images/comm_zoom.png"><img alt="_images/comm_zoom.png" src="_images/comm_zoom.png" style="height: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 5 </span><span class="caption-text">A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.</span><a class="headerlink" href="#comm-zoom" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.</span><a class="headerlink" href="#comm-zoom" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="water-infrastructure">
 <h2>Water Infrastructure<a class="headerlink" href="#water-infrastructure" title="Link to this heading">#</a></h2>
-<p>When we took ember load index, annual burn probability, distance from dams, and post-fire erosion risk, higher risk categories were still in the NE portion of the county, but there were large areas of lower risk scattered throughout the region (<a class="reference internal" href="#water"><span class="std std-numref">Fig. 6</span></a>).</p>
+<p>When we took ember load index, annual burn probability, distance from dams, and post-fire erosion risk, higher risk categories were still in the NE portion of the county, but there were large areas of lower risk scattered throughout the region (<a class="reference internal" href="#water"><span class="std std-numref">Fig. 9</span></a>).</p>
 <figure class="align-default" id="water">
 <a class="reference internal image-reference" href="_images/water.png"><img alt="_images/water.png" src="_images/water.png" style="height: 600px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Wildfire threat to water infrastructure.</span><a class="headerlink" href="#water" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Wildfire threat to water infrastructure.</span><a class="headerlink" href="#water" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from from the reservoir (<a class="reference internal" href="#nbb"><span class="std std-numref">Fig. 7</span></a>). The upper and lower watersheds of New Bullards Bar generally had higher risk. Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire <span id="id2">[<a class="reference internal" href="bibliography.html#id5" title="Hugh D Safford, David A Schmidt, and Chris H Carlson. Effects of fuel treatments on fire severity in an area of wildland–urban interface, angora fire, lake tahoe basin, california. Forest Ecology and Management, 258(5):773–787, 2009.">SSC09</a>]</span>. Riparian areas on the Yuba River between New Bullards Bar and Englebright dam, seemed particularly high.</p>
+<p>Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from from the reservoir (<a class="reference internal" href="#nbb"><span class="std std-numref">Fig. 10</span></a>). The upper and lower watersheds of New Bullards Bar generally had higher risk. Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire <span id="id3">[<a class="reference internal" href="bibliography.html#id6" title="Hugh D Safford, David A Schmidt, and Chris H Carlson. Effects of fuel treatments on fire severity in an area of wildland–urban interface, angora fire, lake tahoe basin, california. Forest Ecology and Management, 258(5):773–787, 2009.">SSC09</a>]</span>. Riparian areas on the Yuba River between New Bullards Bar and Englebright dam, seemed particularly high.</p>
 <figure class="align-default" id="nbb">
 <a class="reference internal image-reference" href="_images/nbb.png"><img alt="_images/nbb.png" src="_images/nbb.png" style="height: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 7 </span><span class="caption-text">A closer look at the New Bullards Bar Reservoir reveals low-risk nearshore and high-risk, particularly north and south of the dam.</span><a class="headerlink" href="#nbb" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">A closer look at the New Bullards Bar Reservoir reveals low-risk nearshore and high-risk, particularly north and south of the dam.</span><a class="headerlink" href="#nbb" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Examining the average pixel value for the Risk Index across public lands showed that federal lands were at high risk, where lower elevation county and state lands were low risk (<a class="reference internal" href="#agency"><span class="std std-numref">Fig. 8</span></a>). Yuba Water Agency ranked in between, likely given the mix of low to high risk land across its holdings.</p>
+<p>Examining the average pixel value for the Risk Index across public lands showed that federal lands were at high risk, where lower elevation county and state lands were low risk (<a class="reference internal" href="#agency"><span class="std std-numref">Fig. 11</span></a>). Yuba Water Agency ranked in between, likely given the mix of low to high risk land across its holdings.</p>
 <figure class="align-default" id="agency">
 <a class="reference internal image-reference" href="_images/agency.png"><img alt="_images/agency.png" src="_images/agency.png" style="height: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Average value by pixel across public land ownerships. The nonprofit value is for one landholding at Rice’s Crossing Reserve along the Yuba River and owned by the Bear Yuba Land Trust.</span><a class="headerlink" href="#agency" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Average value by pixel across public land ownerships. The nonprofit value is for one landholding at Rice’s Crossing Reserve along the Yuba River and owned by the Bear Yuba Land Trust.</span><a class="headerlink" href="#agency" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
