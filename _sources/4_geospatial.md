@@ -104,7 +104,7 @@ However, it may very well be that treatments are effective. If we zoom into Brow
 
 ```{figure} /figures/comm_zoom.png
 :height: 400px
-:name: comm-zoom
+:name: comm_zoom
 A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.
 ```
 
