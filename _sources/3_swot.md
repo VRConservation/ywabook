@@ -21,4 +21,21 @@ Following are key takeaways from the Firesafe Council meeting that took place XX
 - Camptonville Community Partnership biomass facility could be a significant recipient of woody biomass over time 
 - Intra-agency coordination is relatively limited in Yuba County despite some groups, such as the Fire Safe Council and the Integrated Regional Water Management Planning (IRWMP) group, working consistently to foster collaboration 
 - Large landscape management is overwhelming and many of the most engaged entities struggle to address it 
-- A more coordinated approach involving the Forest Service, PG&E, Fire Safe Council, CAL FIRE, community groups, and entities such as the RCD would be beneficial 
+- A more coordinated approach involving the Forest Service, PG&E, Fire Safe Council, CAL FIRE, community groups, and entities such as the RCD would be beneficial.
+
+## Strengths
+Community members that responded to the SWOT survey shared appreciation toward the Fire Safe Council, CAL FIRE’s level of community engagement, and the volunteer fire stations. Emergency response time and interagency collaboration were positive. They noted growing awareness of fire related issues and action by fulltime residents to reduce wildfire risk. While each of these areas were identified as strengths, respondents also noted that there is more work to be done to reduce wild fire risk, collaborate, and improvements to emergency response. 
+
+## WOT
+Opportunities, Weaknesses, and Threats have been reworked to highlight challenges, barriers, and opportunities. The most common listed weaknesses and threats were dense vegetation on private property, lack of funding, and political challenges. Results were reclassed into three categories: 1) Treatment and Thinning, 2) Social & Political, and 3) Workforce & Wood Processing.
+
+### Treatment & Thinning
+The need for additional acres treated on private property and along roadways was identified as a threat, weakness, and opportunity. Community members called out specific challenges and barriers including affordability and access for vegetation thinning, the inability of landowners to front costs, landowner education and resistance, and a perceived threat of absentee landowner inaction. A need to improve ingress and egress safety through thinning and road widening was a second priority.
+
+Opportunities to respond to these challenges and barriers included: developing a local workforce for fuel reduction, incentivizing thinning, increasing outreach, education, and engagement with absentee and resistant landowners, and enforcing existing clearance and setback requirements for roadways.
+
+### Social & Political
+Respondents called out broader political and social threats to wildfire prevention at federal, state, and local levels. Political advocacy for more spending from federal and state partners in rural areas on wildfire prevention was an opportunity. Local-level opportunities included increasing interagency collaboration to address landscape-scale projects and emergency response. A threat was a perceived disconnect between local representatives and landowners that left landowners in high-risk areas feeling alienated and under-prioritized.
+
+### Workforce & Wood Processing
+Workforce and wood processing was highlighted as a weakness and an opportunity. Respondents shared perspectives that there is a need to increase local workforce for thinning. An opportunity was seen in diversifying treatment and wood processing through mobile sawmills and continued support for the Camptonville Community Partnership biomass and wood products campus. Continued treatment diversification through establishing a prescribed burn program like neighboring Placer and Butte Counties was listed as an additional opportunity. 

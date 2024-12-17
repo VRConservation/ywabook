@@ -67,6 +67,22 @@ The results show higher egress risk or difficulty for Brownsville and Camptonvil
 Wildfire egress risk analysis.
 ```
 
+Although we didn't add age as a factor to egress risk, populations over 65 are more vulnerable to wildfire due to lower mobility, lack of access or knowledge of tech, and aging housing or inability to implement home hardening ({numref}`over65`). 
+
+```{figure} /figures/over65.png
+:height: 600px
+:name: over65
+Percent of Yuba County residents over 65.
+```
+
+Poverty and wildfire risk are linked in that higher risk areas tend to be in disadvantaged communities {cite:p}`hino`. Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas ({numref}`poverty`). Nevertheless, in the NE corner of the county poverty percentage is in the 2nd highest level, so these communities are much more prone to egress risk and fire damage.
+
+```{figure} /figures/poverty.png
+:height: 600px
+:name: poverty
+Percent of Yuba County residents affected by poverty.
+```
+
 ## Vulnerable Communities
 Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them ({numref}`structures`). This may be due to a mismatch between treatment timing and dataset development or even a lag between the impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground truth, or anecdotal evidence could uncover the reason behind this phenomenon.
 
@@ -75,6 +91,14 @@ Communities in the heart of the high wildfire risk have slightly different threa
 :name: structures
 Wildfire threat community structures.
 ```
+Community members identified unoccupied housing as a wildfire threat since home hardening may be less likely to occur for property maintenance and owners may not be able to extinguish smaller fires before they explode ({numref}`empty`). Note that the highest incidence of empty housing tracks the highest wildfire risk areas in the County.
+
+```{figure} /figures/empty.png
+:height: 600px
+:name: empty
+Percent empty housing units in Yuba County.
+```
+
 
 However, it may very well be that treatments are effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels ({numref}`comm_zoom.png`). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).
 
