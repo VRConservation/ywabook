@@ -100,7 +100,7 @@ Percent empty housing units in Yuba County.
 ```
 
 
-However, it may very well be that treatments are effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels ({numref}`comm_zoom.png`). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).
+However, it may very well be that treatments are effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels ({numref}`comm_zoom`). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).
 
 ```{figure} /figures/comm_zoom.png
 :height: 400px
