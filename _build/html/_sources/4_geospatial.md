@@ -25,7 +25,7 @@ An analysis of Sentinel-1 radar data shows this striking difference in areas aff
 ```{figure} /figures/radar.png
 :height: 600px
 :name: radar
-Radar change detection analysis using Sentinel-1 radar data in Plumas County (top) and Yuba County (bottom). Map scale is 1:512,367 (1 px = 136 m)—imagery and analysis courtesy of the European Space Agency and Esri.
+Radar change detection analysis using Sentinel-1 radar data in Plumas County (top) and Yuba County (bottom). Red-orange is forest loss due to fire. Map scale is 1:512,367 (1 px = 136 m)—imagery and analysis courtesy of the European Space Agency and Esri.
 ```
 
 Water and electrical infrastructure are established among the foothills, both serving the communities in East County and the more populated communities in West County. Roadways (type and responsibility for maintenance) are important in access, what is treated, and who is responsible for treatment. Local officials, agencies, and communities want to improve forest conditions. Yet, they find themselves confronted by barriers. In Yuba County, some barriers identified are (barriers identified at a Firesafe Council community meeting on October 9, 2024). 
