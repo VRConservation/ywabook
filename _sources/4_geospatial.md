@@ -10,7 +10,7 @@ risk analyses more accurately.
 ## Overview
 Agency and business focus on forest health and treatment is a recognized priority of California. Workforce and business development are key parts of the state’s efforts toward improving forest health, largely to reduce wildfire risk and damage. This report focuses on Yuba County as a case study in statewide efforts to reestablish a forest-focused industry, treat forests, and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests. 
 
-Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills ({numref}`location`). The vegetation cover and topography change dramatically, from level grasslands in the west County to steep, forested slopes in the east County. The county’s water infrastructure and communities are spread across this varying landscape. Yuba County’s forested areas have small, remote communities. Often bordering public lands, these communities are the most densely vegetated and spread from community centers into the wildland-urban interface. Ranging from (population size), these communities (age, poverty, home ownership -second, primary). 
+Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills ({numref}`location`). The vegetation cover and topography change dramatically, from level grasslands in the west County to steep, forested slopes in the east County. The county’s water infrastructure and communities are spread across this varying landscape. Yuba County’s forested areas have small, remote communities. Often bordering public lands, these communities are the most densely vegetated and spread from community centers into the wildland-urban interface.
 
 ```{figure} /figures/location.png
 :height: 600px
@@ -20,12 +20,12 @@ Yuba County's location in California shows generalized vegetation categories.
 
 Like many across California, publicly managed forests in Yuba County experienced a shift in management over the past 30 years, which moved from timber production. The result is more densely vegetated areas at risk for forest fires. While areas surrounding Yuba County have seen catastrophic fires covering large geographic regions in the last decade, Yuba County has experienced smaller-scale fires. Mitigation for more damaging wildfires is a priority for the County, communities, Firesafe Council, and Yuba County Water Agency. 
 
-An analysis of Sentinel-1 radar data shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and then Greenville in Plumas County. We found a difference of 7.5 km<sup>2</sup> affected by fire in the Camptonville area of interest but a whopping two orders of magnitude greater difference of 1,047 km<sup>2</sup> surrounding Greenville ({numref}`radar`).
+An analysis of Sentinel-1 radar data shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and then Greenville in Plumas County. Further analysis of the same region and time period using Sentinel radar imagery found a difference of 7.5 km<sup>2</sup> affected by fire in the Camptonville area of interest and a difference of 1,047 km<sup>2</sup> surrounding Greenville ({numref}`change`).
 
-```{figure} /figures/radar.png
+```{figure} /figures/change.png
 :height: 600px
-:name: radar
-Radar change detection analysis using Sentinel-1 radar data in Plumas County (top) and Yuba County (bottom). Red-orange is forest loss due to fire. Map scale is 1:512,367 (1 px = 136 m)—imagery and analysis courtesy of the European Space Agency and Esri.
+:name: change
+Radar change detection analysis from Landsat 8 imagery between 2019-24. Imagery and analysis courtesy of USGS and Google Earth Engine.
 ```
 
 Water and electrical infrastructure are established among the foothills, both serving the communities in East County and the more populated communities in West County. Roadways (type and responsibility for maintenance) are important in access, what is treated, and who is responsible for treatment. Local officials, agencies, and communities want to improve forest conditions. Yet, they find themselves confronted by barriers. In Yuba County, some barriers identified are (barriers identified at a Firesafe Council community meeting on October 9, 2024). 
