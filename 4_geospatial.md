@@ -23,7 +23,7 @@ Like many across California, publicly managed forests in Yuba County experienced
 An analysis of Sentinel-1 radar data shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and then Greenville in Plumas County. Further analysis of the same region and time period using Sentinel radar imagery found a difference of 7.5 km<sup>2</sup> affected by fire in the Camptonville area of interest and a difference of 1,047 km<sup>2</sup> surrounding Greenville ({numref}`change`).
 
 ```{figure} /figures/change.png
-:height: 600px
+:height: 500px
 :name: change
 Radar change detection analysis from Landsat 8 imagery between 2019-24. Imagery and analysis courtesy of USGS and Google Earth Engine.
 ```
