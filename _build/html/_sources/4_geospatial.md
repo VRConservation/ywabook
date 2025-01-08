@@ -18,9 +18,9 @@ Like many counties in the Sierra Nevada foothills, Yuba County spreads across th
 Yuba County's location in California shows generalized vegetation categories.
 ```
 
-Like many across California, publicly managed forests in Yuba County experienced a shift in management over the past 30 years, which moved from timber production. The result is more densely vegetated areas at risk for forest fires. While areas surrounding Yuba County have seen catastrophic fires covering large geographic regions in the last decade, Yuba County has experienced smaller-scale fires. Mitigation for more damaging wildfires is a priority for the County, communities, Fire Safe Council, and Yuba County Water Agency. 
+Like many forests across California, forests in Yuba County over the past 30 years experienced a management shift away from timber production. The result is more densely vegetated areas at risk for forest fires. While areas surrounding Yuba County have seen catastrophic fires covering large geographic regions in the last decade, Yuba County has experienced smaller-scale fires. Mitigation for more damaging wildfires is a priority for the County, communities, Fire Safe Council, and Yuba County Water Agency. 
 
-An analysis of Sentinel-1 radar data shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and then Greenville in Plumas County. Further analysis of the same region and time period using Sentinel radar imagery found a difference of 7.5 km<sup>2</sup> affected by fire in the Camptonville area of interest and a difference of 1,047 km<sup>2</sup> surrounding Greenville ({numref}`change`).
+An analysis of Landsat 8 imagery shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and Greenville in Plumas County. Further analysis of the same region and period using Sentinel radar imagery found a difference of 7.5 km<sup>2</sup> affected by fire in the Camptonville area of interest and a difference of 1,047 km<sup>2</sup> surrounding Greenville ({numref}`change`).
 
 ```{figure} /figures/change.png
 :height: 500px
@@ -28,9 +28,9 @@ An analysis of Sentinel-1 radar data shows this striking difference in areas aff
 Radar change detection analysis from Landsat 8 imagery between 2019-24. Imagery and analysis courtesy of USGS and Google Earth Engine.
 ```
 
-Water and electrical infrastructure are established among the foothills, both serving the communities in East County and the more populated communities in West County. Roadways (type and responsibility for maintenance) are important in access, what is treated, and who is responsible for treatment. Local officials, agencies, and communities want to improve forest conditions. Yet, they find themselves confronted by barriers. In Yuba County, some barriers identified are (barriers identified at a Fire Safe Council community meeting on October 9, 2024). 
+Water and electrical infrastructure are established among the foothills, serving the communities in East County and the more populated communities in West County. Roadways (type and responsibility for maintenance) are important for access, what is treated, and who is responsible for treatment. Local officials, agencies, and communities want to improve forest conditions, yet they face barriers. In Yuba County, some barriers were identified at a Fire Safe Council community meeting on October 9, 2024. 
 
-We wanted to visually represent risk, treatability, responsibility or partnership, and priority. These questions led us to who and what is at risk and what their risk level is. 
+We wanted to visually represent risk, treatability, responsibility, partnership, and priority. These questions led us to who and what is at risk and what their risk level is. 
 
 For the radar analysis, we used Sentinel-1 data, with images from March 2019 and March 2024, a five-year difference. The backscatter was set to -0.15 and polarization to vertical horizontal, sometimes called VH. The VH and backscatter settings do a better job of capturing tree canopy change. Radar can capture imagery through clouds and smoke and gives a good measure of surface roughness or detect where trees used to be when comparing images. 
 
@@ -57,7 +57,7 @@ In general, the workflow for the geospatial analysis was
 5. Run the model combining each weighted dataset
 6. Perform additional analysis as needed, e.g., zonal statistics
 
-Most datasets were downloaded from the Sierra Nevada Regional Resource Kit, but others came from FRAP and national level datasets {cite}`resourcekit`. **Other Citations**. Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets that focused on fire and forest. Still, it is not great for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.
+Most datasets were downloaded from the Sierra Nevada Regional Resource Kit, others came from FRAP and national level datasets {cite}`resourcekit` or the US Census Bureau {cite:p}`census`. Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets that focused on fire and forest. Still, it is not great for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.
 
 ## Egress Risk
 The egress risk analysis did not work well with the suitability modeler tool, so we weighted and added the rasters using Python and a Jupyter Notebook. The rasters and percent weighting were as follows:
@@ -86,7 +86,7 @@ Percent of Yuba County residents over 65.
 ```
 
 ## Vulnerable Communities
-Poverty and wildfire risk are linked because higher risk areas tend to be in disadvantaged communities {cite:p}`hino`. Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas ({numref}`poverty`). Nevertheless, in the NE corner of the county, poverty is at the 2nd highest level, so these communities are much more prone to egress risk and fire damage.
+Poverty and wildfire risk are linked because higher-risk areas tend to be in disadvantaged communities {cite:p}`hino.` Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas ({numref}`poverty`). Nevertheless, poverty is at the 2nd highest level in the NE corner of the county, so these communities are much more prone to egress risk and fire damage.
 
 ```{figure} /figures/poverty.png
 :height: 600px
@@ -101,7 +101,7 @@ Communities in the heart of the high wildfire risk have slightly different threa
 :name: structures
 Wildfire threat community structures.
 ```
-Community members identified unoccupied housing as a wildfire threat since home hardening may be less likely to occur for property maintenance, and owners may not be able to extinguish smaller fires before they explode ({numref}`empty`). Note that the highest incidence of empty housing tracks the highest wildfire risk areas in the County.
+Community members identified unoccupied housing as a wildfire threat since home hardening may be less likely for property maintenance, and owners may be unable to extinguish smaller fires before they explode ({numref}`empty`). Note that the highest incidence of empty housing tracks the highest wildfire risk areas in the County.
 
 ```{figure} /figures/empty.png
 :height: 600px
@@ -127,7 +127,7 @@ When we combined the ember load index, annual burn probability, distance from da
 Wildfire threat to water infrastructure.
 ```
 
-Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from from the reservoir ({numref}`nbb`). The upper and lower watersheds of New Bullards Bar generally had higher risk. Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire {cite}`safford`. Riparian areas on the Yuba River between New Bullards Bar and Englebright Dam seemed particularly high.
+Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from the reservoir ({numref}`nbb`). The upper and lower watersheds of New Bullards Bar generally had higher risk. Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire {cite}`safford`. Riparian areas on the Yuba River between New Bullards Bar and Englebright Dam seemed particularly high.
 
 ```{figure} /figures/nbb.png
 :height: 400px
@@ -139,8 +139,8 @@ Examining the average pixel value for the Risk Index across public lands showed 
 ```{figure} /figures/agency.png
 :height: 400px
 :name: agency
-Average value by pixel across public land ownerships. The nonprofit value is for one landholding at Rice's Crossing Reserve along the Yuba River, which is owned by the Bear Yuba Land Trust.
+Average value by pixel across public land ownerships. The nonprofit value is for one landholding at Rice's Crossing Reserve along the Yuba River, owned by the Bear Yuba Land Trust.
 ```
 
 ## Barriers & Opportunities
-Downscaled datasets for the County are generally non-existent or not focused on wildfire risk analysis, although the Regional Resource Kit data was usually very useful for this exercise. Finer-scale data and ground-truthing would help make the analysis much more accurate and possibly show specific parcels or forest stands most at risk or needing thinning or prescribed fire treatments.
+Downscaled datasets for the County are generally non-existent or not focused on wildfire risk analysis, although the Regional Resource Kit data was usually very useful for this exercise. Finer-scale data and ground-truthing would help make the analysis much more accurate and possibly show specific parcels or forests that stand most at risk or need thinning or prescribed fire treatments.
