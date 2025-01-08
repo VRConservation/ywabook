@@ -7,7 +7,7 @@ The need for coordinated, large-scale land management in Yuba County’s foreste
 In fall 2024, the Yuba FBA developed a SWOT analysis to help us better understand and communicate the forest management-related strengths, opportunities, weaknesses, and threats in Yuba County.  We shared the survey at a Yuba Watershed Protection and Fire Safe Council meeting and via email and received responses from community members, US Forest Service staff, Yuba County Office of Emergency Services staff, Fire Safe Council staff, a Yuba County representative, and others. Although the analysis would benefit from deeper engagement across a more diverse group, it is a solid starting place for understanding of forest management capacity within the region.  
 
 ## Key Takeaways from the YWPFSC Meeting
-Following are key takeaways from the Firesafe Council meeting that took place XXX date:
+Following are key takeaways from the Fire Safe Council meeting that took place XXX date:
 
 - In the upper foothills region of Yuba County, full-time residents and homeowners are actively engaged in fire prevention planning (e.g., home hardening, property management) 
 - The Yuba Watershed Protection and Fire Safe Council plays an important role and acts as a hub for multiple communities and forest management activities 

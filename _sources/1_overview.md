@@ -10,7 +10,7 @@ Most forested California is threatened by wildfire due to more than a century of
 Large wildfires since 2020 in the Northern Sierra Nevada.
 ```
 
-The County has a good head start on forest treatments, often funded by the Yuba Water Agency and implemented by the Yuba Firesafe Council. However, as shown in the geospatial chapter, risks are high, and threats to communities and water infrastructure still exist despite these efforts. Hopefully, continued funding and efforts mitigate these risks and the catastrophic fires in surrounding regions do not come to bear in Yuba County.
+The County has a good head start on forest treatments, often funded by the Yuba Water Agency and implemented by the Yuba Fire Safe Council. However, as shown in the geospatial chapter, risks are high, and threats to communities and water infrastructure still exist despite these efforts. Hopefully, continued funding and efforts mitigate these risks and the catastrophic fires in surrounding regions do not come to bear in Yuba County.
 
 
 ## Chapters
@@ -30,7 +30,7 @@ Today, Yuba Water Agency owns and operates facilities that can store approximate
 
 The Agency has been instrumental in supporting conservation finance programs to support Forest Health as a funder and participant in the North Yuba Forest Partnership and supporting [research and analysis](https://srfadacip.com/docs) examining into collaborative finance programs {cite:p}`confibook`.
 
-## Yuba Firesafe Council
+## Yuba Fire Safe Council
 The [Yuba Watershed Protection and Fire Safe Council](https://yubafiresafe.org/) is a nonprofit 501(c)(3) community-based group consisting of concerned citizens, local, state, and federal fire professionals, law enforcement, professional foresters, local timber companies, and resource conservation groups along with county government. The Council works with the community to protect property and lives, maintain forest health, and prevent and minimize the impacts of wildfires.
 
 ## CAL FIRE
