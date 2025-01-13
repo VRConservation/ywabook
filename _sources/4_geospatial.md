@@ -86,7 +86,7 @@ Percent of Yuba County residents over 65.
 ```
 
 ## Vulnerable Communities
-Poverty and wildfire risk are linked because higher-risk areas tend to be in disadvantaged communities {cite:p}`hino.` Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas ({numref}`poverty`). Nevertheless, poverty is at the 2nd highest level in the NE corner of the county, so these communities are much more prone to egress risk and fire damage.
+Poverty and wildfire risk are linked because higher-risk areas tend to be in disadvantaged communities {cite:p}`hino`. Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas ({numref}`poverty`). Nevertheless, poverty is at the 2nd highest level in the NE corner of the county, so these communities are much more prone to egress risk and fire damage.
 
 ```{figure} /figures/poverty.png
 :height: 600px
