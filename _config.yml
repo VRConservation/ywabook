@@ -4,7 +4,7 @@
 title: YWA Forest Health Book
 author: 3point.xyz
 copyright: "2024, Built with Jupyter Book"
-logo: booklogo2.png
+logo: booklogo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
