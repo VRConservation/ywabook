@@ -23,9 +23,9 @@ Like many forests across California, forests in Yuba County over the past 30 yea
 An analysis of Landsat 8 imagery shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and Greenville in Plumas County. Further analysis of the same region and period using Sentinel radar imagery found a difference of 7.5 km<sup>2</sup> affected by fire in the Camptonville area of interest and a difference of 1,047 km<sup>2</sup> surrounding Greenville ({numref}`change`).
 
 ```{figure} /figures/change.png
-:height: 500px
+:height: 600px
 :name: change
-Radar change detection analysis from Landsat 8 imagery between 2019-24. Imagery and analysis courtesy of USGS and Google Earth Engine.
+Radar change detection analysis from Landsat 8 imagery between 2019-24. Imagery and computing courtesy of USGS and Google Earth Engine.
 ```
 
 Water and electrical infrastructure are established among the foothills, serving the communities in East County and the more populated communities in West County. Roadways (type and responsibility for maintenance) are important for access, what is treated, and who is responsible for treatment. Local officials, agencies, and communities want to improve forest conditions, yet they face barriers. In Yuba County, some barriers were identified at a Fire Safe Council community meeting on October 9, 2024. 
