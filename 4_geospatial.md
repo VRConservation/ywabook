@@ -2,10 +2,9 @@
 A geospatial analysis of communities and infrastructure at risk in Yuba County.
 
 ## Takeaways
-1. The **Yuba County communities** most at risk from wildfire are in the Northeast portion of the county. Approximately in risk order, they are Brownsville, Dobbins, and Camptonville. However, Brownsville and Camptonville carry more difficulty for egress during a wildfire event, likely due to being more remote than Dobbins. **TRUE?**
+1. The Yuba County communities most at risk from wildfire are in the northeast portion of the county. Approximately in risk order, they are Brownsville, Dobbins, and Camptonville. However, Brownsville and Camptonville carry more difficulty for egress during a wildfire event. Strategies to mitigate risk in each community may differ based on risk factors of community characteristics, land ownership, and landscape/vegetation characteristics.
 2. Our analysis of **water infrastructure** at risk showed nuanced results dependent on location. The upper and lower watershed at New Bullards Bar has a higher risk than the middle. Riparian areas are generally at high risk. The area to the southeast of Collins Lake is at higher risk, but much surrounding the lake is at low risk. The land surrounding Lake Francis is at low risk, but much of the land to the east of the lake is at high risk. Englebright Dam and surrounding riparian areas are at high risk.
-3. Downscaled, updated, or created datasets such as climate change data, forest conditions, and road conditions would make the 
-risk analyses more accurately.
+3. Downscaled, updated, or created **datasets** such as climate change data, forest conditions, and road conditions would make the risk analyses more accurate.
 
 ## Overview
 Agency and business focus on forest health and treatment is a recognized priority of California. Workforce and business development are key parts of the state’s efforts toward improving forest health, largely to reduce wildfire risk and damage. This report focuses on Yuba County as a case study in statewide efforts to reestablish a forest-focused industry, treat forests, and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests. 
@@ -101,6 +100,7 @@ Communities in the heart of the high wildfire risk have slightly different threa
 :name: structures
 Wildfire threat community structures.
 ```
+
 Community members identified unoccupied housing as a wildfire threat since home hardening may be less likely for property maintenance, and owners may be unable to extinguish smaller fires before they explode ({numref}`empty`). Note that the highest incidence of empty housing tracks the highest wildfire risk areas in the County.
 
 ```{figure} /figures/empty.png
