@@ -6,7 +6,7 @@ options:  # The options key will be applied to all chapters, but not sub-section
   numbered: True
 chapters:
   - file: 1_overview
-  - file: 2_final_report
-  - file: 3_swot
-  - file: 4_geospatial
+  - file: 2_swot
+  - file: 3_geospatial
+  - file: 4_lessons
   - file: bibliography    

@@ -1,8 +1,7 @@
-# Report
+# Lessons
+Lessons learned from the Yuba Forest Business Alliance Project
 
-## Overview
-*Description of big picture of project, including some CAL FIRE elements* 
-
+## Project Overview
 The overarching goal of the Forest Business Alliance project was to support healthy, resilient forests and the people and ecosystems that depend on them. With the support of Yuba Water Agency, our project team leveraged statewide, CAL FIRE-funded activities to deepen their impact in Yuba County in particular. The project was built upon three pillars, which together increased the capacity of 1. organizations through technical assistance, 2. individual and organizations through training, and 3. the region through peer learning. These three project elements were particularly chosen to bolster both the short and long-term capacity of a range of forest-health-related organizations and businesses.
 
 ## YWA Grant
@@ -45,18 +44,18 @@ Looking for notes about this from informational call with Madison Thomson (one o
 Overall, the need is huge. Yuba County is a very high risk of severe wildfire. And yet, large-scale forest management, encouraging the use of good fire (and implementing that through prescribed burns), and reducing the risk of catastrophic wildfire requires major, coordinated efforts and myriad smaller, ongoing activities by a range of organizations and individuals. Entities such as the Forest Business Alliance and Yuba Watershed Protection and Fire Safe Council that can provide a hub for learning, information-sharing, and technical assistance can play a vital role in tackling these large needs. 
 
 ## Next Steps
-Vance drafts?
+Common issues that address forest health in Yuba County are typical in other counties across the state. Some suggested long- and short-term approaches and roles are outlined in the following bullets:
 
-What is needed to gain momentum on project development and on-the-ground impact
+- **Yuba Water Agency**. An important element or role that Yuba Water Agency can play through its Integrated Regional Water Management activities or support of the Fire Safe Council and RCD could be capacity-building to build durable partnerships that help ensure on-the-ground, collaborative work is completed. This work must include various land ownership types and be informed by data and knowledge of fire risk and forest health needs. Working with the community college and organizations such as the Camptonville Community Partnership can help ensure that locals complete the forest management work. Registered professional foresters are a gap that could be partially aided through the community college acting as a feeder to university programs with accreditation or providing the pathway to become an RPF.
 
-Long term and short term
+- **Gaining momentum**. RCD capacity, Fire Safe Council continued projects and connecting public/private lands.  Long and short-term. Community of practice between private LTOs, nonprofits, and YWA.
 
-Common issues are not surprising, and need to remain the focus of existing organizations’ efforts. 
+- **Treatment areas**. Treat high-priority WUI areas, examine areas that have not burned, and treat key areas that may threaten vulnerable communities in the northwestern portion of the County.
 
-Funding
+- **Capacity & workforce**. Building capacity and the workforce for forest health projects is one of the County’s biggest opportunities. The Fire Safe Council has started down this road, and the RCD is just beginning. Support to build these organizations and others is warranted. Looking for ways to learn from and build on Camptonville Community Partnership’s efforts, perhaps expanding the work to other county areas could be another venue to strengthen and build capacity. Finally, private forest businesses, RPFs, and LTOs could be expanded or trained throughout the county. As we understand it, many projects depend on outside capacity and organizations to complete forest health projects. Bringing that business within the county would be fantastic. 
 
-Capacity 
+- **Funding**. The Fire Safe Council and Camptonville Community Partnership have been consistently successful in garnering grant funding. The Yuba RCD has several opportunities it has pursued, although their capacity to pursue larger or many grants is limited until they can take on more staff. Funding pots could be greatly increased in the region by teaming across organizations within the County and neighboring counties. Collaborative efforts such as the Healthy Eldorado Landscape Partnership and the North Yuba Forest Partnership have successfully raised more funds as a unified effort rather than individual organizations.
 
-Data
+Since the water agency already participates in the Yuba Forest Resilience Bond, it is worth developing and pursuing similar collaborative finance opportunities that can leverage private and public funding for forest health and water infrastructure projects. It’s unclear what these could be, but replicating the North Yuba Forest Bond or diversifying funding portfolios with private investment or foundation grants could increase the county's project and organizational capacity.
 
-An important element or role that Yuba Water Agency can play through its Integrated Regional Water Management activities, or support of the Fire Safe Council and RCD, could be supporting capacity-building that is targeted at building durable partnerships that help to ensure on-the-ground, collaborative work is completed. This work needs to include a variety of land ownership types and be informed by data and knowledge of fire risk and forest health needs. Continuing to work with the community college and community organizations such as the CCP can help to ensure that the forest management work is complete by locals. Registered professional foresters is a gap (can the community college help to address this?). 
+- **Data**. As the Geospatial Analysis chapter mentioned, more forest-health-specific data would be useful for future projects and the County in general. A final vegetation map, such as those developed in Marin and Sonoma Counties, utilizing Lidar and satellite imagery could be an excellent baseline for a more detailed analysis of the state of Yuba’s forests and provide evidence for the impact of treatments on the future state of forests in the region. Lidar data is now available for the entire Sierra as of 2025 and might make the analysis more financially feasible to conduct. 

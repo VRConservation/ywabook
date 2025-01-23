@@ -13,7 +13,9 @@ Large wildfires since 2020 in the Northern Sierra Nevada.
 ```
 
 Entities within the county—such as the Yuba Water Agency, Yuba Watershed Protection and Fire Safe Council, and Yuba Resource Conservation District—have been working steadily to increase forest management to reduce fire risk and improve forest health. However, large portions of the county remain untreated, and there are unrealized opportunities to increase collaboration with the U.S. Forest Service, PG&E, and others responsible for large areas. 
+
 Fire does not recognize jurisdictional boundaries, so its impacts in surrounding areas provide an important lesson in working collaboratively and contiguously across landscapes. Continued support, such as ongoing funding and efforts to build robust partnerships to manage forests, is critical.
+
 This book is designed to help illustrate key factors in the county that impact fire risk and opportunities for developing projects and partnerships to address risk. We hope this book can be used to drive conversations, inform project design, and increase understanding of the needs and risks we live with—to inform our decision-making and work together to protect our communities, infrastructure, and ecosystems.
 
 ## Chapters
