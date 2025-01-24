@@ -58,7 +58,6 @@
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = '3_geospatial';</script>
-    <link rel="icon" href="_static/yuba2.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="4. Lessons" href="4_lessons.html" />
@@ -383,12 +382,13 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">3.1. Takeaways</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">3.2. Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">3.3. Questions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#study-questions">3.3. Study Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods">3.4. Methods</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#egress-risk">3.5. Egress Risk</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vulnerable-communities">3.6. Vulnerable Communities</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#water-infrastructure">3.7. Water Infrastructure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers-opportunities">3.8. Barriers &amp; Opportunities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#listed-species-and-fire">3.8. Listed Species and Fire</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers-opportunities">3.9. Barriers &amp; Opportunities</a></li>
 </ul>
             </nav>
         </div>
@@ -402,83 +402,81 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="geospatial">
 <h1><span class="section-number">3. </span>Geospatial<a class="headerlink" href="#geospatial" title="Link to this heading">#</a></h1>
-<p>A geospatial analysis of communities and infrastructure at risk in Yuba County.</p>
+<p>A geospatial analysis of risk and conditions and how they relate to communities and infrastructure in Yuba County.</p>
 <section id="takeaways">
 <h2><span class="section-number">3.1. </span>Takeaways<a class="headerlink" href="#takeaways" title="Link to this heading">#</a></h2>
-<ol class="arabic simple">
-<li><p>The Yuba County communities most at risk from wildfire are in the northeast portion of the county. Approximately in risk order, they are Brownsville, Dobbins, and Camptonville. However, Brownsville and Camptonville carry more difficulty for egress during a wildfire event. Strategies to mitigate risk in each community may differ based on risk factors of community characteristics, land ownership, and landscape/vegetation characteristics.</p></li>
-<li><p>Our analysis of <strong>water infrastructure</strong> at risk showed nuanced results dependent on location. The upper and lower watershed at New Bullards Bar has a higher risk than the middle. Riparian areas are generally at high risk. The area to the southeast of Collins Lake is at higher risk, but much surrounding the lake is at low risk. The land surrounding Lake Francis is at low risk, but much of the land to the east of the lake is at high risk. Englebright Dam and surrounding riparian areas are at high risk.</p></li>
+<ol class="arabic">
+<li><div class="highlight-none notranslate"><div class="highlight"><pre><span></span> The **Yuba County communities** most at risk from wildfire are in the northeast portion of the county. Approximately in risk order, they are Brownsville, Dobbins, and Camptonville. However, Brownsville and Camptonville carry more difficulty for egress during a wildfire event. Strategies to mitigate risk in each community may differ based on risk factors of community characteristics, land ownership, and landscape/vegetation characteristics.
+</pre></div>
+</div>
+</li>
+<li><p>Our analysis of <strong>water infrastructure</strong> at risk showed nuanced results dependent on location. The upper and lower watershed at New Bullards Bar has a higher risk than the middle. Riparian areas are [CA1] generally at high risk due to heavy vegetation growth and post-fire impact, such as hillside erosion due to steep slopes or treatment impacts to listed species. The area to the southeast of Collins Lake is at higher risk, but much surrounding the lake is at low risk. The land surrounding Lake Francis is at low risk, but much of the land to the east of the lake is at high risk. Englebright Dam and surrounding riparian areas are at high risk.</p></li>
 <li><p>Downscaled, updated, or created <strong>datasets</strong> such as climate change data, forest conditions, and road conditions would make the risk analyses more accurate.</p></li>
 </ol>
 </section>
 <section id="overview">
 <h2><span class="section-number">3.2. </span>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
-<p>Agency and business focus on forest health and treatment is a recognized priority of California. Workforce and business development are key parts of the state’s efforts toward improving forest health, largely to reduce wildfire risk and damage. This report focuses on Yuba County as a case study in statewide efforts to reestablish a forest-focused industry, treat forests, and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests.</p>
-<p>Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills (<a class="reference internal" href="#location"><span class="std std-numref">Fig. 3.1</span></a>). The vegetation cover and topography change dramatically, from level grasslands in the west County to steep, forested slopes in the east County. The county’s water infrastructure and communities are spread across this varying landscape. Yuba County’s forested areas have small, remote communities. Often bordering public lands, these communities are the most densely vegetated and spread from community centers into the wildland-urban interface.</p>
+<p>California recognizes the importance of agency and business focus on forest health and treatment. Workforce and business development are key parts of the State’s efforts to improve forest health, largely to reduce wildfire risk and damage. This analysis focuses on Yuba County as a case study in statewide efforts to establish a forest-focused industry to treat forests and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests.
+Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills (<code class="xref std std-numref docutils literal notranslate"><span class="pre">location</span></code>). The vegetation cover and topography change dramatically, from level grasslands in the west county to steep, forested slopes in the east county. Water infrastructure, electrical infrastructure, and population centers are spread across this varied landscape. Yuba County’s forested areas are home to small, remote communities. Often bordering public lands, these communities are the most densely vegetated and expand from community centers into the wildland-urban interface.</p>
 <figure class="align-default" id="location">
 <a class="reference internal image-reference" href="_images/location.png"><img alt="_images/location.png" src="_images/location.png" style="height: 600px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 3.1 </span><span class="caption-text">Yuba County’s location in California shows generalized vegetation categories.</span><a class="headerlink" href="#location" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Like many forests across California, forests in Yuba County over the past 30 years experienced a management shift away from timber production. The result is more densely vegetated areas at risk for forest fires. While areas surrounding Yuba County have seen catastrophic fires covering large geographic regions in the last decade, Yuba County has experienced smaller-scale fires. Mitigation for more damaging wildfires is a priority for the County, communities, Fire Safe Council, and Yuba County Water Agency.</p>
-<p>An analysis of Landsat 8 imagery shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and Greenville in Plumas County. Further analysis of the same region and period using Sentinel radar imagery found a difference of 7.5 km<sup>2</sup> affected by fire in the Camptonville area of interest and a difference of 1,047 km<sup>2</sup> surrounding Greenville (<a class="reference internal" href="#change"><span class="std std-numref">Fig. 3.2</span></a>).</p>
+<p>Like many counties across California, publicly managed forests in Yuba County experienced a shift in management over the past 30 years, which moved away from timber production due to ecosystem impacts and financial unsustainability. The result is more densely vegetated areas at risk for forest fires.
+Local officials, agencies, and communities want to improve forest conditions, but they face barriers. Mitigating more damaging wildfires is a priority for the County, communities, Yuba Watershed Protection and Firesafe Council, and Yuba County Water Agency.
+While areas surrounding Yuba County have seen catastrophic fires covering large geographic regions in the last decade, Yuba County has experienced smaller-scale fires. To show this, we analyzed Sentinel-1 radar data, which shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and Greenville in Plumas County. We found a difference of 7.5 km2 affected by fire in the Camptonville area of interest but a whopping two orders of magnitude greater difference of 1,047 km2 surrounding Greenville (<code class="xref std std-numref docutils literal notranslate"><span class="pre">change</span></code>).</p>
 <figure class="align-default" id="change">
 <a class="reference internal image-reference" href="_images/change.png"><img alt="_images/change.png" src="_images/change.png" style="height: 600px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 3.2 </span><span class="caption-text">Radar change detection analysis from Landsat 8 imagery between 2019-24. Imagery and computing courtesy of USGS and Google Earth Engine.</span><a class="headerlink" href="#change" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Water and electrical infrastructure are established among the foothills, serving the communities in East County and the more populated communities in West County. Roadways (type and responsibility for maintenance) are important for access, what is treated, and who is responsible for treatment. Local officials, agencies, and communities want to improve forest conditions, yet they face barriers. In Yuba County, some barriers were identified at a Fire Safe Council community meeting on October 9, 2024.</p>
-<p>We wanted to visually represent risk, treatability, responsibility, partnership, and priority. These questions led us to who and what is at risk and what their risk level is.</p>
-<p>For the radar analysis, we used Sentinel-1 data, with images from March 2019 and March 2024, a five-year difference. The backscatter was set to -0.15 and polarization to vertical horizontal, sometimes called VH. The VH and backscatter settings do a better job of capturing tree canopy change. Radar can capture imagery through clouds and smoke and gives a good measure of surface roughness or detect where trees used to be when comparing images.</p>
+<p>Water and electrical infrastructure are established in the foothills, serving the remote communities in East County and the more populated communities in West County. Clear roadway access and maintenance are critical for public safety; however, the needs and responsibilities vary across the region.
+We wanted to visually represent risk, treatability, responsibility, partnership, and priority. These questions led us to who and what is at risk and what the risk level is.</p>
 </section>
-<section id="questions">
-<h2><span class="section-number">3.3. </span>Questions<a class="headerlink" href="#questions" title="Link to this heading">#</a></h2>
-<p>To conduct the study, we aimed to address the following questions:</p>
-<ul class="simple">
-<li><p>What is at risk? And what is their level of risk?</p></li>
-<li><p>Who is at risk? And what is their level of risk?</p></li>
-<li><p>Who is responsible for addressing that risk?</p></li>
-<li><p>If not responsible, where are their opportunities to work together to address risk?</p></li>
-<li><p>What are some options to address these risks? (Options for treatment)</p></li>
-<li><p>What are some barriers to treating these risks? (e.g., lack of downscaled data or funding to mitigate risk)</p></li>
-<li><p>What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data.)</p></li>
-</ul>
+<section id="study-questions">
+<h2><span class="section-number">3.3. </span>Study Questions<a class="headerlink" href="#study-questions" title="Link to this heading">#</a></h2>
+<p>To conduct the study, we aimed to address the following questions:
+What is at risk? And what is the level of risk?
+Who is at risk? And what is their level of risk?
+Who is responsible for addressing that risk?
+Where are their opportunities to work together to address risk if not responsible?
+What are some options to address these risks? (Options for treatment)
+What are some barriers to treating these risks? (e.g., lack of downscaled data or funding to mitigate risk)
+What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data)</p>
 </section>
 <section id="methods">
 <h2><span class="section-number">3.4. </span>Methods<a class="headerlink" href="#methods" title="Link to this heading">#</a></h2>
-<p>We created three models based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output could create a report showing the datasets, weighting, and visual representation of the workflow. The only downside of using the suitability modeler is that it tended to crash the software when large datasets were large. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.</p>
-<p>In general, the workflow for the geospatial analysis was</p>
-<ol class="arabic simple">
-<li><p>Download or link rest services for the datasets.</p></li>
-<li><p>Clip the dataset to the AOI</p></li>
-<li><p>Upload the datasets to the model</p></li>
-<li><p>Weight and transform each dataset</p></li>
-<li><p>Run the model combining each weighted dataset</p></li>
-<li><p>Perform additional analysis as needed, e.g., zonal statistics</p></li>
-</ol>
-<p>Most datasets were downloaded from the Sierra Nevada Regional Resource Kit, others came from FRAP and national level datasets <span id="id1">[<a class="reference internal" href="bibliography.html#id5" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">YHSMC24</a>]</span> or the US Census Bureau <span id="id2">[<a class="reference internal" href="bibliography.html#id7" title="US Census Bureau. Us census data. 2024. URL: https://data.census.gov//.">Bur24</a>]</span>. Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets that focused on fire and forest. Still, it is not great for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.</p>
+<p>We created three models [CA1] [VR2] based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output creates a report showing the workflow’s datasets, weighting, and visual representation. The only downside of using the suitability modeler is that it tended to crash the software when using large datasets. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
+In general, the workflow for the geospatial analysis was
+Download or link rest services for the datasets.
+Clip the dataset to the AOI.
+Upload the datasets to the model.
+Weight and transform each dataset.
+Run the model combining each weighted dataset.
+Perform additional analysis as needed, e.g., zonal statistics.
+Most datasets were downloaded from the Sierra Nevada Regional Resource Kit <span id="id1">[<a class="reference internal" href="bibliography.html#id6" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">YHSMC24</a>]</span>, but others came from CAL FIRE’s Fire and Resource Assessment Program (FRAP) and national level datasets <span id="id2">[<a class="reference internal" href="bibliography.html#id8" title="US Census Bureau. Us census data. 2024. URL: https://data.census.gov//.">Bur24</a>]</span>. For the radar analysis, we used Sentinel-1 data, with images from March 2019 and March 2024, a five-year difference. The backscatter was set to -0.15 and polarization to vertical horizontal, sometimes called VH. The VH and backscatter settings do a better job of capturing tree canopy change. Radar can capture imagery through clouds and smoke and gives a good measure of surface roughness or detect where trees used to be when comparing images.
+Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets that focused on fire, forest, and topography. The analysis presented important consideration for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.</p>
 </section>
 <section id="egress-risk">
 <h2><span class="section-number">3.5. </span>Egress Risk<a class="headerlink" href="#egress-risk" title="Link to this heading">#</a></h2>
-<p>The egress risk analysis did not work well with the suitability modeler tool, so we weighted and added the rasters using Python and a Jupyter Notebook. The rasters and percent weighting were as follows:</p>
-<ul class="simple">
-<li><p>Distance to cell tower (20%)</p></li>
-<li><p>Annual burn probability (40%)</p></li>
-<li><p>Ember load index (20%)</p></li>
-<li><p>Road density (20%)</p></li>
-<li><p>Population density (-10%). Reversed since the higher the population, the more difficult it may be to exit</p></li>
-<li><p>Slope (10%)</p></li>
-</ul>
-<p>The results show higher egress risk or difficulty for Brownsville and Camptonville, likely due to their remote location and distance to major roads (<a class="reference internal" href="#egress"><span class="std std-numref">Fig. 3.3</span></a>).</p>
+<p>The egress risk analysis did not work well with the suitability modeler tool, so we weighted and added the rasters using Python and a Jupyter Notebook. The rasters and percent weighting were as follows:
+Distance to cell tower (20%)
+Annual burn probability (40%)
+Ember load index (20%)
+Road density (20%)
+Population density (-10%). Reversed since the higher the population, the more difficult it may be to exit.
+Slope (10%)
+The results show higher egress risk or difficulty for Brownsville and Camptonville, likely due to their remote location and distance to major roads (<code class="xref std std-numref docutils literal notranslate"><span class="pre">egress</span></code>).</p>
 <figure class="align-default" id="egress">
 <a class="reference internal image-reference" href="_images/egress.png"><img alt="_images/egress.png" src="_images/egress.png" style="height: 600px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 3.3 </span><span class="caption-text">Wildfire egress risk analysis.</span><a class="headerlink" href="#egress" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Although we didn’t add age as a factor to egress risk, populations over 65 are more vulnerable to wildfire due to lower mobility, lack of access or knowledge of tech, and aging housing or inability to implement home hardening (<a class="reference internal" href="#over65"><span class="std std-numref">Fig. 3.4</span></a>).</p>
+<p>Although we didn’t add age as a factor to egress risk, populations over 65 are more vulnerable to wildfire due to lower mobility, lack of access or knowledge of tech, and aging housing or inability to implement home hardening (<code class="xref std std-numref docutils literal notranslate"><span class="pre">over65</span></code>). While elderly residents in all communities may benefit from assistance, Dobbins and Oregon House communities had higher concentrations of residents over 65. These regions may benefit from focused assistance programs for home hardening, defensible space, fuel breaks, and emergency planning.</p>
 <figure class="align-default" id="over65">
 <a class="reference internal image-reference" href="_images/over65.png"><img alt="_images/over65.png" src="_images/over65.png" style="height: 600px;" /></a>
 <figcaption>
@@ -488,28 +486,28 @@ document.write(`
 </section>
 <section id="vulnerable-communities">
 <h2><span class="section-number">3.6. </span>Vulnerable Communities<a class="headerlink" href="#vulnerable-communities" title="Link to this heading">#</a></h2>
-<p>Poverty and wildfire risk are linked because higher-risk areas tend to be in disadvantaged communities <span id="id3">[<a class="reference internal" href="bibliography.html#id4" title="Miyuki Hino and Christopher B. Field. Fire frequency and vulnerability in california. PLOS Climate, 2023. URL: https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000087.">HF23</a>]</span>. Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas (<a class="reference internal" href="#poverty"><span class="std std-numref">Fig. 3.5</span></a>). Nevertheless, poverty is at the 2nd highest level in the NE corner of the county, so these communities are much more prone to egress risk and fire damage.</p>
+<p>Poverty and wildfire risk are linked because higher-risk areas tend to be in disadvantaged communities <span id="id3">[<a class="reference internal" href="bibliography.html#id4" title="Miyuki Hino and Christopher B. Field. Fire frequency and vulnerability in california. PLOS Climate, 2023. URL: https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000087.">HF23</a>]</span>. Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas (<code class="xref std std-numref docutils literal notranslate"><span class="pre">poverty</span></code>). Nevertheless, poverty is at the 2nd highest level in the County’s northeast corner, so these communities are much more prone to egress risk and fire damage. Communities around Brownsville, Camptonville, Challenge, Clipper Mills, and Strawberry Valley may benefit from financial assistance programs for private property clearing.</p>
 <figure class="align-default" id="poverty">
 <a class="reference internal image-reference" href="_images/poverty.png"><img alt="_images/poverty.png" src="_images/poverty.png" style="height: 600px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 3.5 </span><span class="caption-text">Percent of Yuba County residents affected by poverty.</span><a class="headerlink" href="#poverty" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them (<a class="reference internal" href="#structures"><span class="std std-numref">Fig. 3.6</span></a>). This may be due to a mismatch between treatment timing and dataset development or even a lag between the impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground truth, or anecdotal evidence could uncover the reason behind this phenomenon.</p>
+<p>Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them (<code class="xref std std-numref docutils literal notranslate"><span class="pre">structures</span></code>). This may be due to a mismatch between treatment timing and dataset development or even a lag between the impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground truth, or anecdotal evidence could uncover the reason behind this phenomenon.</p>
 <figure class="align-default" id="structures">
 <a class="reference internal image-reference" href="_images/structures.png"><img alt="_images/structures.png" src="_images/structures.png" style="height: 600px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 3.6 </span><span class="caption-text">Wildfire threat community structures.</span><a class="headerlink" href="#structures" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Community members identified unoccupied housing as a wildfire threat since home hardening may be less likely for property maintenance, and owners may be unable to extinguish smaller fires before they explode (<a class="reference internal" href="#empty"><span class="std std-numref">Fig. 3.7</span></a>). Note that the highest incidence of empty housing tracks the highest wildfire risk areas in the County.</p>
+<p>In the SWOT survey, community members identified absentee landowners and unoccupied housing as a wildfire threat since home hardening may be less likely to occur for property maintenance, and owners may not be able to extinguish smaller fires before they explode (<code class="xref std std-numref docutils literal notranslate"><span class="pre">empty</span></code>). Note that the highest incidence of empty housing tracks the highest wildfire risk areas in the County. This northeast region may benefit from focused outreach to second homeowners, seasonal residents, or absentee landowners on the importance of thinning, home hardening, and community safety.</p>
 <figure class="align-default" id="empty">
 <a class="reference internal image-reference" href="_images/empty.png"><img alt="_images/empty.png" src="_images/empty.png" style="height: 600px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 3.7 </span><span class="caption-text">Percent empty housing units in Yuba County.</span><a class="headerlink" href="#empty" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>However, it may very well be that treatments are effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels (<a class="reference internal" href="#comm-zoom"><span class="std std-numref">Fig. 3.8</span></a>). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).</p>
+<p>Despite existing threats, treatments may be effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels (<code class="xref std std-numref docutils literal notranslate"><span class="pre">comm-zoom</span></code>). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).</p>
 <figure class="align-default" id="comm-zoom">
 <a class="reference internal image-reference" href="_images/comm_zoom.png"><img alt="_images/comm_zoom.png" src="_images/comm_zoom.png" style="height: 400px;" /></a>
 <figcaption>
@@ -519,21 +517,22 @@ document.write(`
 </section>
 <section id="water-infrastructure">
 <h2><span class="section-number">3.7. </span>Water Infrastructure<a class="headerlink" href="#water-infrastructure" title="Link to this heading">#</a></h2>
-<p>When we combined the ember load index, annual burn probability, distance from dams, and post-fire erosion risk to create a water infrastructure risk index, higher risk categories were still in the NE portion of the county. Still, large areas of lower risk were scattered throughout the region (<a class="reference internal" href="#water"><span class="std std-numref">Fig. 3.9</span></a>).</p>
+<p>When we combined the ember load index, annual burn probability, distance from dams, and post-fire erosion risk to create a water infrastructure risk index, higher risk categories were still in the northeast portion of the county. Still, large areas of lower risk were scattered throughout the region (<code class="xref std std-numref docutils literal notranslate"><span class="pre">water</span></code>).</p>
 <figure class="align-default" id="water">
 <a class="reference internal image-reference" href="_images/water.png"><img alt="_images/water.png" src="_images/water.png" style="height: 600px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 3.9 </span><span class="caption-text">Wildfire threat to water infrastructure.</span><a class="headerlink" href="#water" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the SE. Zooming into New Bullards Bar reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from the reservoir (<a class="reference internal" href="#nbb"><span class="std std-numref">Fig. 3.10</span></a>). The upper and lower watersheds of New Bullards Bar generally had higher risk. Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire <span id="id4">[<a class="reference internal" href="bibliography.html#id6" title="Hugh D Safford, David A Schmidt, and Chris H Carlson. Effects of fuel treatments on fire severity in an area of wildland–urban interface, angora fire, lake tahoe basin, california. Forest Ecology and Management, 258(5):773–787, 2009.">SSC09</a>]</span>. Riparian areas on the Yuba River between New Bullards Bar and Englebright Dam seemed particularly high.</p>
+<p>Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the southeast. Zooming into New Bullards Bar Reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from the reservoir (<code class="xref std std-numref docutils literal notranslate"><span class="pre">nbb</span></code>). The upper and lower watersheds of New Bullards Bar generally had higher risk. Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire <span id="id4">[<a class="reference internal" href="bibliography.html#id7" title="Hugh D Safford, David A Schmidt, and Chris H Carlson. Effects of fuel treatments on fire severity in an area of wildland–urban interface, angora fire, lake tahoe basin, california. Forest Ecology and Management, 258(5):773–787, 2009.">SSC09</a>]</span>. Riparian areas on the Yuba River between New Bullards Bar and Englebright Dam seemed particularly high.</p>
 <figure class="align-default" id="nbb">
 <a class="reference internal image-reference" href="_images/nbb.png"><img alt="_images/nbb.png" src="_images/nbb.png" style="height: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 3.10 </span><span class="caption-text">A closer look at the New Bullards Bar Reservoir reveals low-risk nearshore and high-risk, particularly north and south of the dam.</span><a class="headerlink" href="#nbb" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 3.10 </span><span class="caption-text">A closer look at the New Bullards Bar Reservoir reveals low-risk areas nearshore and high-risk areas north and south of the dam.</span><a class="headerlink" href="#nbb" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Examining the average pixel value for the Risk Index across public lands showed that federal lands were at high risk, whereas lower elevation county and state lands were low risk (<a class="reference internal" href="#agency"><span class="std std-numref">Fig. 3.11</span></a>). Yuba Water Agency ranked in between, likely given the mix of low to high-risk land across its holdings.</p>
+<p>Due to limited available data, our analysis focused on dams and spillways. Further analysis of water infrastructure (canals, meters, storage, flumes, etc.) would provide a clearer picture of infrastructure at risk in these communities. Additional analysis may also include electrical infrastructure and communication towers.
+Addressing infrastructure and community risk across landownership is essential. Infrastructure crosses landownership boundaries, communities are adjacent to public and private lands, and wildfire is not selective about whose land is burning. Examining the average pixel value for the Risk Index across public lands showed that federal lands were at high risk, whereas lower elevation county and state lands were low risk (<code class="xref std std-numref docutils literal notranslate"><span class="pre">agency</span></code>). Yuba Water Agency ranked in between, likely given the mix of low to high-risk land across its holdings. These results are especially relevant to interagency, landscape-scale collaborations.</p>
 <figure class="align-default" id="agency">
 <a class="reference internal image-reference" href="_images/agency.png"><img alt="_images/agency.png" src="_images/agency.png" style="height: 400px;" /></a>
 <figcaption>
@@ -541,9 +540,24 @@ document.write(`
 </figcaption>
 </figure>
 </section>
+<section id="listed-species-and-fire">
+<h2><span class="section-number">3.8. </span>Listed Species and Fire<a class="headerlink" href="#listed-species-and-fire" title="Link to this heading">#</a></h2>
+<p>Threatened and endangered species can be at risk from fires since their habitats tend to be small or fragmented. When fire frequency is outside the normal range of variation, species can be at higher risk. The location of listed species can limit compliance for forest health and infrastructure projects. We analyzed listed species richness and time since last fire to create a suitability map across the northwestern portion of the County. Portions of this analysis mirror select methodologies used by <span id="id5">[<a class="reference internal" href="bibliography.html#id5" title="R Kelsey, E Smith, T Biswas, C McKoll, and D Cameron. . regional prioritization of forest restoration across california’s sierra nevada. 2017. URL: https://shorturl.at/XnO8y.">KSB+17</a>]</span> but were not as in-depth as this study.
+The analysis found a similar trend of higher suitability moving uphill northwest in the county <a class="reference internal" href="#species"><span class="std std-numref">Fig. 3.12</span></a>. However, there were two areas where species richness is higher at Texas Hill and south of Camptonville, where this listed species x fire index is higher.</p>
+<figure class="align-default" id="species">
+<a class="reference internal image-reference" href="_images/species.png"><img alt="_images/species.png" src="_images/species.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3.12 </span><span class="caption-text">Listed species richness and time since last fire suitability map.</span><a class="headerlink" href="#species" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
 <section id="barriers-opportunities">
-<h2><span class="section-number">3.8. </span>Barriers &amp; Opportunities<a class="headerlink" href="#barriers-opportunities" title="Link to this heading">#</a></h2>
-<p>Downscaled datasets for the County are generally non-existent or not focused on wildfire risk analysis, although the Regional Resource Kit data was usually very useful for this exercise. Finer-scale data and ground-truthing would help make the analysis much more accurate and possibly show specific parcels or forests that stand most at risk or need thinning or prescribed fire treatments.</p>
+<h2><span class="section-number">3.9. </span>Barriers &amp; Opportunities<a class="headerlink" href="#barriers-opportunities" title="Link to this heading">#</a></h2>
+<p>Downscaled datasets for the county are generally non-existent or not focused on wildfire risk analysis, although the Regional Resource Kit data was usually very useful for this exercise. Finer-scale data and ground-truthing would make the analysis much more accurate and show specific parcels, or forest stands most at risk or needing thinning and prescribed fire treatments.
+Our analysis was limited to publicly accessible data and datasets from partnering organizations. Further analysis would benefit from additional data and could provide a clearer picture of:
+·       Infrastructure risks of electrical resources, water storage, and communications.
+·       Absentee landowners using tax address information
+·       Roadways using road type or conditions (i.e., paved, gravel, dirt.) for ingress and egress</p>
 </section>
 </section>
 
@@ -613,12 +627,13 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">3.1. Takeaways</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">3.2. Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">3.3. Questions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#study-questions">3.3. Study Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods">3.4. Methods</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#egress-risk">3.5. Egress Risk</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vulnerable-communities">3.6. Vulnerable Communities</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#water-infrastructure">3.7. Water Infrastructure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers-opportunities">3.8. Barriers &amp; Opportunities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#listed-species-and-fire">3.8. Listed Species and Fire</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers-opportunities">3.9. Barriers &amp; Opportunities</a></li>
 </ul>
   </nav></div>
 
