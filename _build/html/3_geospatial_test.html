@@ -1,0 +1,670 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Geospatial &#8212; YWA Forest Health Book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '3_geospatial_test';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/booklogo.png" class="logo__image only-light" alt="YWA Forest Health Book - Home"/>
+    <script>document.write(`<img src="_static/booklogo.png" class="logo__image only-dark" alt="YWA Forest Health Book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome!
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1_overview.html">1. Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_swot.html">2. SWOT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_geospatial.html">3. Geospatial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_lessons.html">4. Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bibliography.html">5. Bibliography</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/VRConservation/ywabook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/VRConservation/ywabook/issues/new?title=Issue%20on%20page%20%2F3_geospatial_test.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/3_geospatial_test.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Geospatial</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">Takeaways</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#study-questions">Study Questions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods">Methods</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#egress-risk">Egress Risk</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vulnerable-communities">Vulnerable Communities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#water-infrastructure">Water Infrastructure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#listed-species-and-fire">Listed Species and Fire</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers-opportunities">Barriers &amp; Opportunities</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="geospatial">
+<h1>Geospatial<a class="headerlink" href="#geospatial" title="Link to this heading">#</a></h1>
+<p>A geospatial analysis of risk and conditions and how they relate to communities and infrastructure in Yuba County.</p>
+<section id="takeaways">
+<h2>Takeaways<a class="headerlink" href="#takeaways" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>The <strong>Yuba County communities</strong> most at risk from wildfire are in the northeast portion of the county. Approximately in risk order, they are Brownsville, Dobbins, and Camptonville. However, Brownsville and Camptonville carry more difficulty for egress during a wildfire event. Strategies to mitigate risk in each community may differ based on risk factors of community characteristics, land ownership, and landscape/vegetation characteristics.</p></li>
+<li><p>Our analysis of <strong>water infrastructure</strong> at risk showed nuanced results dependent on location. The upper and lower watershed at New Bullards Bar has a higher risk than the middle. Riparian areas are generally at high risk due to heavy vegetation growth and post-fire impact, such as hillside erosion due to steep slopes or treatment impacts to listed species. The area to the southeast of Collins Lake is at higher risk, but much surrounding the lake is at low risk. The land surrounding Lake Francis is at low risk, but much of the land to the east of the lake is at high risk. Englebright Dam and surrounding riparian areas are at high risk.</p></li>
+<li><p>Downscaled, updated, or created <strong>datasets</strong> such as climate change data, forest conditions, and road conditions would make the risk analyses more accurate.</p></li>
+</ol>
+</section>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<p>California recognizes the importance of agency and business focus on forest health and treatment. Workforce and business development are key parts of the State’s efforts to improve forest health, largely to reduce wildfire risk and damage. This analysis focuses on Yuba County as a case study in statewide efforts to establish a forest-focused industry to treat forests and address wildfire risk to communities, the infrastructure they rely on, and surrounding forests.
+Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills (<code class="xref std std-numref docutils literal notranslate"><span class="pre">location</span></code>). The vegetation cover and topography change dramatically, from level grasslands in the west county to steep, forested slopes in the east county. Water infrastructure, electrical infrastructure, and population centers are spread across this varied landscape. Yuba County’s forested areas are home to small, remote communities. Often bordering public lands, these communities are the most densely vegetated and expand from community centers into the wildland-urban interface.</p>
+<figure class="align-default" id="location">
+<a class="reference internal image-reference" href="_images/location.png"><img alt="_images/location.png" src="_images/location.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Yuba County’s location in California shows generalized vegetation categories.</span><a class="headerlink" href="#location" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Like many counties across California, publicly managed forests in Yuba County experienced a shift in management over the past 30 years, which moved away from timber production due to ecosystem impacts and financial unsustainability. The result is more densely vegetated areas at risk for forest fires.
+Local officials, agencies, and communities want to improve forest conditions, but they face barriers. Mitigating more damaging wildfires is a priority for the County, communities, Yuba Watershed Protection and Firesafe Council, and Yuba County Water Agency.
+While areas surrounding Yuba County have seen catastrophic fires covering large geographic regions in the last decade, Yuba County has experienced smaller-scale fires. To show this, we analyzed Sentinel-1 radar data, which shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and Greenville in Plumas County. We found a difference of 7.5 km2 affected by fire in the Camptonville area of interest but a whopping two orders of magnitude greater difference of 1,047 km2 surrounding Greenville (<code class="xref std std-numref docutils literal notranslate"><span class="pre">change</span></code>).</p>
+<figure class="align-default" id="change">
+<a class="reference internal image-reference" href="_images/change.png"><img alt="_images/change.png" src="_images/change.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Radar change detection analysis from Landsat 8 imagery between 2019-24. Imagery and computing courtesy of USGS and Google Earth Engine.</span><a class="headerlink" href="#change" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Water and electrical infrastructure are established in the foothills, serving the remote communities in East County and the more populated communities in West County. Clear roadway access and maintenance are critical for public safety; however, the needs and responsibilities vary across the region.
+We wanted to visually represent risk, treatability, responsibility, partnership, and priority. These questions led us to who and what is at risk and what the risk level is.</p>
+</section>
+<section id="study-questions">
+<h2>Study Questions<a class="headerlink" href="#study-questions" title="Link to this heading">#</a></h2>
+<p>To conduct the study, we aimed to address the following questions:
+What is at risk? And what is the level of risk?
+Who is at risk? And what is their level of risk?
+Who is responsible for addressing that risk?
+Where are their opportunities to work together to address risk if not responsible?
+What are some options to address these risks? (Options for treatment)
+What are some barriers to treating these risks? (e.g., lack of downscaled data or funding to mitigate risk)
+What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data)</p>
+</section>
+<section id="methods">
+<h2>Methods<a class="headerlink" href="#methods" title="Link to this heading">#</a></h2>
+<p>We created three models [CA1] [VR2] based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output creates a report showing the workflow’s datasets, weighting, and visual representation. The only downside of using the suitability modeler is that it tended to crash the software when using large datasets. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
+In general, the workflow for the geospatial analysis was
+Download or link rest services for the datasets.
+Clip the dataset to the AOI.
+Upload the datasets to the model.
+Weight and transform each dataset.
+Run the model combining each weighted dataset.
+Perform additional analysis as needed, e.g., zonal statistics.
+Most datasets were downloaded from the Sierra Nevada Regional Resource Kit <span id="id1">[<a class="reference internal" href="bibliography.html#id6" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">YHSMC24</a>]</span>, but others came from CAL FIRE’s Fire and Resource Assessment Program (FRAP) and national level datasets <span id="id2">[<a class="reference internal" href="bibliography.html#id8" title="US Census Bureau. Us census data. 2024. URL: https://data.census.gov//.">Bur24</a>]</span>. For the radar analysis, we used Sentinel-1 data, with images from March 2019 and March 2024, a five-year difference. The backscatter was set to -0.15 and polarization to vertical horizontal, sometimes called VH. The VH and backscatter settings do a better job of capturing tree canopy change. Radar can capture imagery through clouds and smoke and gives a good measure of surface roughness or detect where trees used to be when comparing images.
+Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets that focused on fire, forest, and topography. The analysis presented important consideration for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.</p>
+</section>
+<section id="egress-risk">
+<h2>Egress Risk<a class="headerlink" href="#egress-risk" title="Link to this heading">#</a></h2>
+<p>The egress risk analysis did not work well with the suitability modeler tool, so we weighted and added the rasters using Python and a Jupyter Notebook. The rasters and percent weighting were as follows:
+Distance to cell tower (20%)
+Annual burn probability (40%)
+Ember load index (20%)
+Road density (20%)
+Population density (-10%). Reversed since the higher the population, the more difficult it may be to exit.
+Slope (10%)
+The results show higher egress risk or difficulty for Brownsville and Camptonville, likely due to their remote location and distance to major roads (<code class="xref std std-numref docutils literal notranslate"><span class="pre">egress</span></code>).</p>
+<figure class="align-default" id="egress">
+<a class="reference internal image-reference" href="_images/egress.png"><img alt="_images/egress.png" src="_images/egress.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Wildfire egress risk analysis.</span><a class="headerlink" href="#egress" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Although we didn’t add age as a factor to egress risk, populations over 65 are more vulnerable to wildfire due to lower mobility, lack of access or knowledge of tech, and aging housing or inability to implement home hardening (<code class="xref std std-numref docutils literal notranslate"><span class="pre">over65</span></code>). While elderly residents in all communities may benefit from assistance, Dobbins and Oregon House communities had higher concentrations of residents over 65. These regions may benefit from focused assistance programs for home hardening, defensible space, fuel breaks, and emergency planning.</p>
+<figure class="align-default" id="over65">
+<a class="reference internal image-reference" href="_images/over65.png"><img alt="_images/over65.png" src="_images/over65.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Percent of Yuba County residents over 65.</span><a class="headerlink" href="#over65" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="vulnerable-communities">
+<h2>Vulnerable Communities<a class="headerlink" href="#vulnerable-communities" title="Link to this heading">#</a></h2>
+<p>Poverty and wildfire risk are linked because higher-risk areas tend to be in disadvantaged communities <span id="id3">[<a class="reference internal" href="bibliography.html#id4" title="Miyuki Hino and Christopher B. Field. Fire frequency and vulnerability in california. PLOS Climate, 2023. URL: https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000087.">HF23</a>]</span>. Generally, poverty is not high in Yuba County, with higher percent poverty near urban areas (<code class="xref std std-numref docutils literal notranslate"><span class="pre">poverty</span></code>). Nevertheless, poverty is at the 2nd highest level in the County’s northeast corner, so these communities are much more prone to egress risk and fire damage. Communities around Brownsville, Camptonville, Challenge, Clipper Mills, and Strawberry Valley may benefit from financial assistance programs for private property clearing.</p>
+<figure class="align-default" id="poverty">
+<a class="reference internal image-reference" href="_images/poverty.png"><img alt="_images/poverty.png" src="_images/poverty.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Percent of Yuba County residents affected by poverty.</span><a class="headerlink" href="#poverty" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Communities in the heart of the high wildfire risk have slightly different threat levels despite the amount of thinning treatments surrounding them (<code class="xref std std-numref docutils literal notranslate"><span class="pre">structures</span></code>). This may be due to a mismatch between treatment timing and dataset development or even a lag between the impact of thinning and the dependent variables we examined in each dataset. It may also be due simply to topography or forest state surrounding the community. More research, ground truth, or anecdotal evidence could uncover the reason behind this phenomenon.</p>
+<figure class="align-default" id="structures">
+<a class="reference internal image-reference" href="_images/structures.png"><img alt="_images/structures.png" src="_images/structures.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Wildfire threat community structures.</span><a class="headerlink" href="#structures" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>In the SWOT survey, community members identified absentee landowners and unoccupied housing as a wildfire threat since home hardening may be less likely to occur for property maintenance, and owners may not be able to extinguish smaller fires before they explode (<code class="xref std std-numref docutils literal notranslate"><span class="pre">empty</span></code>). Note that the highest incidence of empty housing tracks the highest wildfire risk areas in the County. This northeast region may benefit from focused outreach to second homeowners, seasonal residents, or absentee landowners on the importance of thinning, home hardening, and community safety.</p>
+<figure class="align-default" id="empty">
+<a class="reference internal image-reference" href="_images/empty.png"><img alt="_images/empty.png" src="_images/empty.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Percent empty housing units in Yuba County.</span><a class="headerlink" href="#empty" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Despite existing threats, treatments may be effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels (<code class="xref std std-numref docutils literal notranslate"><span class="pre">comm-zoom</span></code>). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).</p>
+<figure class="align-default" id="comm-zoom">
+<a class="reference internal image-reference" href="_images/comm_zoom.png"><img alt="_images/comm_zoom.png" src="_images/comm_zoom.png" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-text">A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.</span><a class="headerlink" href="#comm-zoom" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="water-infrastructure">
+<h2>Water Infrastructure<a class="headerlink" href="#water-infrastructure" title="Link to this heading">#</a></h2>
+<p>When we combined the ember load index, annual burn probability, distance from dams, and post-fire erosion risk to create a water infrastructure risk index, higher risk categories were still in the northeast portion of the county. Still, large areas of lower risk were scattered throughout the region (<code class="xref std std-numref docutils literal notranslate"><span class="pre">water</span></code>).</p>
+<figure class="align-default" id="water">
+<a class="reference internal image-reference" href="_images/water.png"><img alt="_images/water.png" src="_images/water.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Wildfire threat to water infrastructure.</span><a class="headerlink" href="#water" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Collins Lake, for instance, showed mostly low risk around its shoreline, except for a large area of high risk to the southeast. Zooming into New Bullards Bar Reservoir shows mostly low fire risk to water infrastructure closer to shore but higher risk further away from the reservoir (<code class="xref std std-numref docutils literal notranslate"><span class="pre">nbb</span></code>). The upper and lower watersheds of New Bullards Bar generally had higher risk. Riparian areas seem to be particularly higher risk, perhaps following findings that showed higher fire risk in this vegetation type due to lower treatment from vegetation/endangered species limitations in mixed conifer forests following the Angora Fire <span id="id4">[<a class="reference internal" href="bibliography.html#id7" title="Hugh D Safford, David A Schmidt, and Chris H Carlson. Effects of fuel treatments on fire severity in an area of wildland–urban interface, angora fire, lake tahoe basin, california. Forest Ecology and Management, 258(5):773–787, 2009.">SSC09</a>]</span>. Riparian areas on the Yuba River between New Bullards Bar and Englebright Dam seemed particularly high.</p>
+<figure class="align-default" id="nbb">
+<a class="reference internal image-reference" href="_images/nbb.png"><img alt="_images/nbb.png" src="_images/nbb.png" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-text">A closer look at the New Bullards Bar Reservoir reveals low-risk areas nearshore and high-risk areas north and south of the dam.</span><a class="headerlink" href="#nbb" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Due to limited available data, our analysis focused on dams and spillways. Further analysis of water infrastructure (canals, meters, storage, flumes, etc.) would provide a clearer picture of infrastructure at risk in these communities. Additional analysis may also include electrical infrastructure and communication towers.
+Addressing infrastructure and community risk across landownership is essential. Infrastructure crosses landownership boundaries, communities are adjacent to public and private lands, and wildfire is not selective about whose land is burning. Examining the average pixel value for the Risk Index across public lands showed that federal lands were at high risk, whereas lower elevation county and state lands were low risk (<code class="xref std std-numref docutils literal notranslate"><span class="pre">agency</span></code>). Yuba Water Agency ranked in between, likely given the mix of low to high-risk land across its holdings. These results are especially relevant to interagency, landscape-scale collaborations.</p>
+<figure class="align-default" id="agency">
+<a class="reference internal image-reference" href="_images/agency.png"><img alt="_images/agency.png" src="_images/agency.png" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-text">Average value by pixel across public land ownerships. The nonprofit value is for one landholding at Rice’s Crossing Reserve along the Yuba River, owned by the Bear Yuba Land Trust.</span><a class="headerlink" href="#agency" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="listed-species-and-fire">
+<h2>Listed Species and Fire<a class="headerlink" href="#listed-species-and-fire" title="Link to this heading">#</a></h2>
+<p>Threatened and endangered species can be at risk from fires since their habitats tend to be small or fragmented. When fire frequency is outside the normal range of variation, species can be at higher risk. The location of listed species can limit compliance for forest health and infrastructure projects. We analyzed listed species richness and time since last fire to create a suitability map across the northwestern portion of the County. Portions of this analysis mirror select methodologies used by <span id="id5">[<a class="reference internal" href="bibliography.html#id5" title="R Kelsey, E Smith, T Biswas, C McKoll, and D Cameron. . regional prioritization of forest restoration across california’s sierra nevada. 2017. URL: https://shorturl.at/XnO8y.">KSB+17</a>]</span> but were not as in-depth as this study.
+The analysis found a similar trend of higher suitability moving uphill northwest in the county <code class="xref std std-numref docutils literal notranslate"><span class="pre">species</span></code>. However, there were two areas where species richness is higher at Texas Hill and south of Camptonville, where this listed species x fire index is higher.</p>
+<figure class="align-default" id="species">
+<a class="reference internal image-reference" href="_images/species.png"><img alt="_images/species.png" src="_images/species.png" style="height: 600px;" /></a>
+<figcaption>
+<p><span class="caption-text">Listed species richness and time since last fire suitability map.</span><a class="headerlink" href="#species" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="barriers-opportunities">
+<h2>Barriers &amp; Opportunities<a class="headerlink" href="#barriers-opportunities" title="Link to this heading">#</a></h2>
+<p>Downscaled datasets for the county are generally non-existent or not focused on wildfire risk analysis, although the Regional Resource Kit data was usually very useful for this exercise. Finer-scale data and ground-truthing would make the analysis much more accurate and show specific parcels, or forest stands most at risk or needing thinning and prescribed fire treatments.
+Our analysis was limited to publicly accessible data and datasets from partnering organizations. Further analysis would benefit from additional data and could provide a clearer picture of:
+·       Infrastructure risks of electrical resources, water storage, and communications.
+·       Absentee landowners using tax address information
+·       Roadways using road type or conditions (i.e., paved, gravel, dirt.) for ingress and egress</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">Takeaways</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#study-questions">Study Questions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods">Methods</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#egress-risk">Egress Risk</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vulnerable-communities">Vulnerable Communities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#water-infrastructure">Water Infrastructure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#listed-species-and-fire">Listed Species and Fire</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barriers-opportunities">Barriers &amp; Opportunities</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By 3point.xyz
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024, Built with Jupyter Book.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
