@@ -5,12 +5,12 @@ From the Yuba FBA Capacity Building and Analysis in Yuba County Project
 Yuba County has a mix of capacities for managing land and health forests across the wildland  urban interface ({numref}`landscape`). The Forest Business Alliance team came together to understand better the conditions and needs of Yuba County’s forested landscapes and forest-focused entities and individuals. We then worked to provide targeted, effective assistance. Through the one-on-one triage and guidance activities of Task 1, we found that some organizations were well-poised to pursue and obtain grant funding and implement projects. In contrast, others simply needed technical assistance to clarify their capacity needs. Our engagement with Yuba County stakeholders and GIS analysis revealed organizational and geographic areas of opportunity for focused next steps. 
 
 ```{figure} /figures/landscape.png
-:height: 600px
+:height: 400px
 :name: landscape
 Graphic of organizational relationships across the wildland urban interface.
 ```
 
-## Key Organizations and Entities
+## Key Organizations
 
 **Yuba Watershed Protection and Fire Safe Council** is an active hub in the community. It supports information-sharing and fire risk reduction for individual homeowners and shared areas, such as roadways. This organization needs and actively pursues grant funding and requires ongoing support to ensure its programs are sustainable. 
 
