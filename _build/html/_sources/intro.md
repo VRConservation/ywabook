@@ -8,6 +8,7 @@ This book contains a final report on the activities completed for the Yuba Fores
 ## Jupyterbook
 This book was developed with [Jupyter books](https://jupyterbook.org) and is hosted for free and available at [YWA book](https://3point.xyz/ywabook). In the upper right corner, you can view the repository online, download each chapter as a markdown or pdf file, switch to full-screen mode, and toggle between light and dark mode. A search function and links to the chapters are found in the left panel, and when in each chapter, a more detailed outline of the contents, with links to each section, is found in the right panel.
 
+## Table of Contents
 
 ```{tableofcontents}
 ```
