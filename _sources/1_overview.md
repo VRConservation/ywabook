@@ -4,7 +4,7 @@ An overview of the Yuba Forest Health Book contents and connected agencies.
 ## Background
 In 2023 and 2024, Yuba Water Agency supported the [Forest Business Alliance](https://www.forestbusinessalliance.org), leveraging statewide CAL FIRE-funded activities to deepen their impact in Yuba County. The overarching goal of the Forest Business Alliance project was to support healthy, resilient forests and the people and ecosystems that depend on them. In Yuba County, our project team worked to advance a three-part effort to increase the capacity of 1( organizations through technical assistance, 2) individuals and organizations through training, and 3) the region through peer learning. These three project elements were chosen to bolster the short and long-term capacity of forest-health-related organizations and businesses.
 
-## Forest Business Alliance Activities in Yuba County 
+## Yuba County FBA Activities
 A small team with expertise in forestry, business development, and grant writing designed and implemented the Forest Business Alliance project. The Yuba Watershed Protection and Fire Safe Council was the fiscal agent and hub of outreach and technical support activities. 
 
 The project specifically focused on four interconnected tasks: 
