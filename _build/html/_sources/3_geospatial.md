@@ -140,6 +140,7 @@ Listed species richness and time since last fire suitability map.
 ## Barriers & Opportunities
 Downscaled datasets for the county are generally non-existent or not focused on wildfire risk analysis, although the Regional Resource Kit data was usually very useful for this exercise. Finer-scale data and ground-truthing would make the analysis much more accurate and show specific parcels, or forest stands most at risk or needing thinning and prescribed fire treatments.
 Our analysis was limited to publicly accessible data and datasets from partnering organizations. Further analysis would benefit from additional data and could provide a clearer picture of:
-·       Infrastructure risks of electrical resources, water storage, and communications.
-·       Absentee landowners using tax address information
-·       Roadways using road type or conditions (i.e., paved, gravel, dirt.) for ingress and egress
+
+- Infrastructure risks of electrical resources, water storage, and communications.
+- Absentee landowners using tax address information.
+- Roadways using road type or conditions (i.e., paved, gravel, dirt.) for ingress and egress.
