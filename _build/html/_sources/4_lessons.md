@@ -7,12 +7,12 @@ Yuba County has a mix of capacities for managing land and health forests across 
 ```{figure} /figures/landscape.png
 :height: 400px
 :name: landscape
-Graphic of organizational relationships across the wildland urban interface.
+Organizational relationships across the wildland urban interface in Yuba County.
 ```
 
 ## Key Organizations
 
-**Yuba Watershed Protection and Fire Safe Council** is an active hub in the community. It supports information-sharing and fire risk reduction for individual homeowners and shared areas, such as roadways. This organization needs and actively pursues grant funding and requires ongoing support to ensure its programs are sustainable. 
+**Yuba Watershed Protection and Fire Safe Council** is an active hub in the community. The [Fire Safe Council](https://yubafiresafe.org/) is a nonprofit 501(c)(3) community-based group consisting of concerned citizens, local, state, and federal fire professionals, law enforcement, professional foresters, local timber companies, and resource conservation groups along with county government. The council works with the community to protect property and lives, maintain forest health, and prevent and minimize the impacts of wildfires. The Council supports information-sharing and fire risk reduction for individual homeowners and shared areas, such as roadways. The organization needs and actively pursues grant funding and requires ongoing support to ensure its programs are sustainable. 
 
 The **Yuba Resource Conservation District** has been recently revived and is working hard to gain traction through project identification and development. This organization is in a capacity-building stage of development and is actively pursuing grants. Strong partnerships are critical for the RCD, and collaborative work has been the mainstay of early successes. The Forest Business Alliance worked with the RCD and other entities to help increase understanding of the project environment and different organizations' roles. For example, the Fire Safe Council focuses on home hardening and defensible space within a certain zone around private homes and businesses. Larger entities, such as the Forest Service, are working to maintain forest health on much larger landscapes. An effective role for the RCD could be focusing on private lands beyond the defensible space zone and adjacent to USFS lands or other large parcels. 
 
@@ -32,8 +32,11 @@ The diversity of land ownership in the region—a mosaic of private, federal, an
 The Forest Business Alliance Team met with local forestry professionals to discuss Yuba County-specific challenges. These conversations provided helpful insights. For example, one local Registered Professional Forester (RPF) shared that there are few practicing RPFs and few loggers in Yuba County. This means that much of the workforce supporting Yuba watershed forestry projects is outside the county and sometimes travels a long distance to do the work. 
 
 Further, the RFP shared a great need for markets for the products that come off the land. This means that woody biomass (trees, logs, etc.) cut down in forest health thinning projects are often piled and left in the forest, creating fire risk. If they are removed, it is difficult, if not impossible, to find a local use for the material. Having bioenergy facilities, log markets, and other forest product markets in the watershed would be extremely helpful.
+
 Staffing forest management projects can also be a challenge in Yuba County. During the summer, there is often high turnover as workers move to prevailing-wage jobs. Many forest operators are not savvy about prevailing wages or have limited experience. 
+
 Prescribed fire is an additional challenge due to the liability risk for private entities. Establishing prescribed fire activities, such as those in neighboring counties like Nevada and Placer, could help address this. Both counties are home to community-based burn cooperatives and have active RCDs that lead to prescribed fire training.
+
 Overall, the need is huge. Yuba County is at very high risk of severe wildfire. And yet, large-scale forest management, encouraging the use of good fire (and implementing that through prescribed burns), and reducing the risk of catastrophic wildfire requires major, coordinated efforts and myriad smaller, ongoing activities by various organizations and individuals. Entities such as the Forest Business Alliance and Yuba Watershed Protection and Fire Safe Council that provide a hub for learning, information-sharing, and technical assistance can play a vital role in tackling these large needs. 
 
 ## Next Steps 
