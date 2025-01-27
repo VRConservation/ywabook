@@ -105,11 +105,11 @@ In the SWOT survey, community members identified absentee landowners and unoccup
 Percent empty housing units in Yuba County.
 ```
  
-Despite existing threats, treatments may be effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels ({numref}`comm-zoom`). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).
+Despite existing threats, treatments may be effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels ({numref}`community`). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).
 
-```{figure} /figures/comm_zoom.png
+```{figure} /figures/community.png
 :height: 400px
-:name: comm_zoom
+:name: community
 A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.
 ```
  
@@ -139,7 +139,7 @@ Addressing infrastructure and community risk across landownership is essential. 
 Average value by pixel across public land ownerships. The nonprofit value is for one landholding at Rice's Crossing Reserve along the Yuba River, owned by the Bear Yuba Land Trust.
 ```
 
- ## Listed Species and Fire
+ ## Listed Species & Fire
 Threatened and endangered species can be at risk from fires since their habitats tend to be small or fragmented. When fire frequency is outside the normal range of variation, species can be at higher risk. The location of listed species can limit compliance for forest health and infrastructure projects. We analyzed listed species richness and time since last fire to create a suitability map across the northwestern portion of the County. Portions of this analysis mirror select methodologies used by {cite:p}`kelsey` but were not as in-depth as this study.
 The analysis found a similar trend of higher suitability moving uphill northwest in the county {numref}`species`. However, there were two areas where species richness is higher at Texas Hill and south of Camptonville, where this listed species x fire index is higher.
 
