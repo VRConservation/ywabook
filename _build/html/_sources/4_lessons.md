@@ -2,7 +2,7 @@
 From the Yuba FBA Capacity Building and Analysis in Yuba County Project
 
 ## Restoration Economy
-Declines in extractive industries such as mining, logging, and cattle grazing in the West have had devastating impacts on rural communities {cite:p}`davis`,  {cite:p}`formosa`,  {cite:p}`hibbard`
+Declines in extractive industries such as mining, logging, and cattle grazing in the West have had devastating impacts on rural communities {cite}`davis`, {cite}`formosa`, {cite}`hibbard`
  
 
 ## Project impact 
