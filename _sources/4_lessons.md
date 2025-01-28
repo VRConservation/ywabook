@@ -40,7 +40,7 @@ Prescribed fire is an additional challenge due to the liability risk for private
 Overall, the need is huge. Yuba County is at very high risk of severe wildfire. And yet, large-scale forest management, encouraging the use of good fire (and implementing that through prescribed burns), and reducing the risk of catastrophic wildfire requires major, coordinated efforts and myriad smaller, ongoing activities by various organizations and individuals. Entities such as the Forest Business Alliance and Yuba Watershed Protection and Fire Safe Council that provide a hub for learning, information-sharing, and technical assistance can play a vital role in tackling these large needs. 
 
 ## Next Steps 
-{cite:t}`davis`, recommend working to assess workforce needs and capacity and then develop and monitor a plan to measure workforce development over time. The same authors suggest creating the following for forest practitioners to build over time to accomplish this work:
+{cite:t}`davis` recommend working to assess workforce needs and capacity and then develop and monitor a plan to measure workforce development over time. The same authors suggest creating the following for forest practitioners to build over time to accomplish this work:
 
 1. In-depth understanding of business and workforce capacity and likely future trends in restoration spending.
 2. A network of partners to better coordinate and leverage the economic benefits of restoration work across whole watersheds and the region.
@@ -49,7 +49,7 @@ Overall, the need is huge. Yuba County is at very high risk of severe wildfire. 
 5. Support for local contractors to consistently connect to and capture these jobs
 6. Systems for tracking and sharing these impacts
 
-These steps and others could be incorporated into the Fire Safe Council Regional Forest and Fire Capacity Plan, which could be developed with collaborators such as the RCD and YWA. 
+These steps and others could be incorporated into the Fire Safe Council Regional Forest and Fire Capacity Plan, which could be developed with collaborators such as the RCD and YWA {cite}`kelly`. 
 
 Additional long- and short-term approaches, roles, and next steps are outlined in the following bullets:
 
