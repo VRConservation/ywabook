@@ -1,6 +1,10 @@
 # Lessons Learned
 From the Yuba FBA Capacity Building and Analysis in Yuba County Project
 
+## Restoration Economy
+Declines in extractive industries such as mining, logging, and cattle grazing in the West have had devastating impacts on rural communities {cite:p}`davis`,  {cite:p}`formosa`,  {cite:p}`hibbard`
+ 
+
 ## Project impact 
 Yuba County has a mix of capacities for managing land and health forests across the wildland-urban interface ({numref}`landscape`). The Forest Business Alliance team came together to understand better the conditions and needs of Yuba County’s forested landscapes and forest-focused entities and individuals. We then worked to provide targeted, effective assistance. Through the one-on-one triage and guidance activities of Task 1, we found that some organizations were well-poised to pursue and obtain grant funding and implement projects. In contrast, others simply needed technical assistance to clarify their capacity needs. Our engagement with Yuba County stakeholders and GIS analysis revealed organizational and geographic areas of opportunity for focused next steps. 
 
@@ -49,7 +53,7 @@ Overall, the need is huge. Yuba County is at very high risk of severe wildfire. 
 5. Support for local contractors to consistently connect to and capture these jobs
 6. Systems for tracking and sharing these impacts
 
-These steps and others could be incorporated into the Fire Safe Council Regional Forest and Fire Capacity Plan, which could be developed with collaborators such as the RCD and YWA {cite}`kelly`. 
+These steps and others could be incorporated into the Fire Safe Council Regional Forest and Fire Capacity Plan, which could be developed with collaborators such as the RCD and YWA. 
 
 Additional long- and short-term approaches, roles, and next steps are outlined in the following bullets:
 
