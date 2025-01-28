@@ -40,7 +40,18 @@ Prescribed fire is an additional challenge due to the liability risk for private
 Overall, the need is huge. Yuba County is at very high risk of severe wildfire. And yet, large-scale forest management, encouraging the use of good fire (and implementing that through prescribed burns), and reducing the risk of catastrophic wildfire requires major, coordinated efforts and myriad smaller, ongoing activities by various organizations and individuals. Entities such as the Forest Business Alliance and Yuba Watershed Protection and Fire Safe Council that provide a hub for learning, information-sharing, and technical assistance can play a vital role in tackling these large needs. 
 
 ## Next Steps 
-Common issues that address forest health in Yuba County are typical in other counties across the state. Some suggested long- and short-term approaches and roles are outlined in the following bullets:
+{cite:t}`davis`, recommend working to assess workforce needs and capacity and then develop and monitor a plan to measure workforce development over time. The same authors suggest creating the following for forest practitioners to build over time to accomplish this work:
+
+1. In-depth understanding of business and workforce capacity and likely future trends in restoration spending.
+2. A network of partners to better coordinate and leverage the economic benefits of restoration work across whole watersheds and the region.
+3. Increased availability and predictability of various work opportunities and funding.
+4. Federal, state, and watershed council contracts that are structured in size and scope to fit local contracting capacity.
+5. Support for local contractors to consistently connect to and capture these jobs
+6. Systems for tracking and sharing these impacts
+
+These steps and others could be incorporated into the Fire Safe Council Regional Forest and Fire Capacity Plan, which could be developed with collaborators such as the RCD and YWA. 
+
+Additional long- and short-term approaches, roles, and next steps are outlined in the following bullets:
 
 **Yuba Water Agency**. An important element or role that Yuba Water Agency can play through its Integrated Regional Water Management activities or support of the Fire Safe Council and RCD could be capacity-building to build durable partnerships that help ensure on-the-ground, collaborative work is completed. This work must include various land ownership types and be informed by data and knowledge of fire risk and forest health needs. Working with the community college and organizations such as the Camptonville Community Partnership can help ensure that locals complete the forest management work. Registered professional foresters are a gap that could be partially aided through the community college acting as a feeder to university programs with accreditation or providing the pathway to become an RPF.
 
