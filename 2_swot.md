@@ -17,8 +17,10 @@ Community members who responded to the SWOT survey shared appreciation toward th
 Areas of Focus:
 - In the upper foothills region of Yuba County, full-time residents and homeowners are actively engaged in fire prevention planning (e.g., home hardening and property management).
 - The Yuba Watershed Protection and Fire Safe Council is an important hub for multiple communities and forest management activities.
+
 ## Weaknesses, Opportunities, and Threats
 The Weaknesses, Opportunities, and Threats have been grouped to highlight focus areas. Results were grouped into three categories: 1) Treatment and Thinning, 2) Leadership, and 3) Workforce and  Wood Processing.
+
 ### Treatment and  Thinning
 The need for additional acres treated on private property and along roadways was identified as a threat, weakness, and opportunity. Community members called out specific challenges and barriers, including affordability and access to vegetation thinning, landowners' inability to front the costs, landowner education and resistance, and a perceived threat of absentee landowner inaction. A second priority was improving ingress and egress safety through thinning and road widening.
 Areas of focus:
@@ -26,12 +28,14 @@ Areas of focus:
 - Incentivizing thinning
 - Increasing outreach, education, and engagement with absentee and resistant landownersEnforce existing clearance and setback requirements for roadways
 - More funding and even more communication are needed to address landscape-level issues
+
 ### Leadership
 Respondents called out broader political and social threats to wildfire prevention at the federal, state, and local levels. Political advocacy for more spending from federal and state partners in rural areas on wildfire prevention was an opportunity. Local-level opportunities included increasing interagency collaboration to address landscape-scale projects and emergency response. A threat was a perceived disconnect between local representatives and landowners, which caused landowners in high-risk areas to feel alienated and under-prioritized.
 Areas of Focus:
 Intra-agency coordination is relatively limited in Yuba County despite some groups, such as the Fire Safe Council and the Integrated Regional Water Management Planning (IRWMP) group, consistently working to foster collaboration.
 - A more coordinated approach involving the Forest Service, PG&E, Fire Safe Council, CAL FIRE, community groups, and entities such as the RCD would be beneficial
 - County-led study in areas lacking cell service and install early warning sirens in the foothills
+
 ### Workforce and Wood Processing
 Workforce and wood processing were highlighted as weaknesses and opportunities. Respondents shared perspectives that the local workforce needs to be increased for thinning. Diversifying treatment and wood processing through mobile sawmills and continued support for the Camptonville Community Partnership’s Forest Biomass Business Center (a bioenergy and wood products campus) was seen as an opportunity. An additional opportunity was continued treatment diversification through establishing a prescribed burn program like those in neighboring Placer and Butte Counties.
 Areas of Focus:
