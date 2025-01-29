@@ -94,9 +94,9 @@ In the SWOT survey, community members identified absentee landowners and unoccup
 Percent empty housing units in Yuba County.
 ```
  
-Despite existing threats, treatments may be effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels ({numref}`comm-zoom`). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).
+Despite existing threats, treatments may be effective. If we zoom into Brownsville and Camptonville, many treated areas have lower risk levels ({numref}`community`). Zonal statistics analysis of treatments and the threat index showed that threats were in the lower third distribution of raster values (Mean = 31, Range 1-40 with 17 being high risk and 40 low risk).
 
-```{figure} /figures/comm_zoom.png
+```{figure} /figures/community.png
 :height: 400px
 :name: community
 A zoom into the Brownsville/Camptonville region showing treatments and risk index levels.
