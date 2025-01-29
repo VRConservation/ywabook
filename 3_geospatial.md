@@ -1,9 +1,11 @@
 # Geospatial
 A geospatial analysis of risk and conditions and how they relate to communities and infrastructure in Yuba County.
+
 ## Takeaways
 1. The **Yuba County communities** most at risk from wildfire are in the northeast portion of the county. Approximately in risk order, they are Brownsville, Dobbins, and Camptonville. However, Brownsville and Camptonville carry more difficulty for egress during a wildfire event. Strategies to mitigate risk in each community may differ based on risk factors such as community characteristics, land ownership, and landscape/vegetation characteristics.
 2. Our analysis of **water infrastructure** at risk showed nuanced results dependent on location. The upper and lower watershed at New Bullards Bar has a higher risk than the middle. Riparian areas are generally at high risk due to heavy vegetation growth and post-fire impact, such as hillside erosion due to steep slopes or treatment impacts to listed species. The area to the southeast of Collins Lake is at higher risk, but much surrounding the lake is at low risk. The land surrounding Lake Francis is at low risk, but much of the land to the east of the lake is at high risk. Englebright Dam and surrounding riparian areas are at high risk.
 3. Downscaled, updated, or created **datasets** such as climate change data, forest conditions, and road conditions would make the risk analyses more accurate.
+
 ## Background
 Like many counties in the Sierra Nevada foothills, Yuba County spreads across the valley up into the foothills ({numref}`location`). The vegetation cover and topography change dramatically, from level grasslands in the west county to steep, forested slopes in the east county. Water infrastructure, electrical infrastructure, and population centers are spread across this varied landscape. Yuba County’s forested areas are home to small, remote communities. Often bordering public lands, these communities are the most densely vegetated and expand from community centers into the wildland-urban interface. Our geospatial analysis focuses on the communities and infrastructure most at risk of wildfire in Yuba County. With these risk areas identified, Yuba County leadership and community members can identify priority areas and develop informed strategies for treatment. 
 
@@ -25,26 +27,29 @@ Water and electrical infrastructure are established in the foothills, serving th
 We wanted to visually represent risk, treatability, responsibility, partnership, and priority. These questions led us to who and what is at risk and what the risk level is.
 
 ## Study Questions
-To conduct the study, we aimed to address the following questions:
-What is at risk? And what is the level of risk?
-Who is at risk? And what is their level of risk?
-Who is responsible for addressing that risk?
-Where are their opportunities to work together to address risk if not responsible?
-What are some options to address these risks? (Options for treatment)
-What are some barriers to treating these risks? (e.g., lack of downscaled data or funding to mitigate risk)
-What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data)
+- To conduct the study, we aimed to address the following questions:
+- What is at risk? And what is the level of risk?
+- Who is at risk? And what is their level of risk?
+- Who is responsible for addressing that risk?
+- Where are their opportunities to work together to address risk if not responsible?
+- What are some options to address these risks? (Options for treatment)
+- What are some barriers to treating these risks? (e.g., lack of downscaled data or funding to mitigate risk)
+- What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data)
 
 ## Methods
 We created three models [CA1] [VR2] based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output creates a report showing the workflow's datasets, weighting, and visual representation. The only downside of using the suitability modeler is that it tended to crash the software when using large datasets. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
+
 In general, the workflow for the geospatial analysis was
-Download or link rest services for the datasets.
-Clip the dataset to the AOI.
-Upload the datasets to the model.
-Weight and transform each dataset.
-Run the model combining each weighted dataset.
-Perform additional analysis as needed, e.g., zonal statistics.
+1. Download or link rest services for the datasets.
+2. Clip the dataset to the AOI.
+3. Upload the datasets to the model.
+4. Weight and transform each dataset.
+5. Run the model combining each weighted dataset.
+6. Perform additional analysis as needed, e.g., zonal statistics.
+
 Most datasets were downloaded from the Sierra Nevada Regional Resource Kit {cite}`resourcekit`, but others came from CAL FIRE’s Fire and Resource Assessment Program (FRAP) and national level datasets {cite:p}`census`. For the radar analysis, we used Sentinel-1 data, with images from March 2019 and March 2024, a five-year difference. The backscatter was set to -0.15 and polarization to vertical horizontal, sometimes called VH. The VH and backscatter settings do a better job of capturing tree canopy change. Radar can capture imagery through clouds and smoke and gives a good measure of surface roughness or detect where trees used to be when comparing images.
 Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets focusing on fire, forest, and topography. The analysis presented important considerations for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.
+
 ## Egress Risk
 The egress risk analysis did not work well with the suitability modeler tool, so we weighted and added the rasters using Python and a Jupyter Notebook. The rasters and percent weighting were as follows:
 Distance to cell tower (20%)

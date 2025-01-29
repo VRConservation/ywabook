@@ -436,26 +436,30 @@ We wanted to visually represent risk, treatability, responsibility, partnership,
 </section>
 <section id="study-questions">
 <h2><span class="section-number">3.3. </span>Study Questions<a class="headerlink" href="#study-questions" title="Link to this heading">#</a></h2>
-<p>To conduct the study, we aimed to address the following questions:
-What is at risk? And what is the level of risk?
-Who is at risk? And what is their level of risk?
-Who is responsible for addressing that risk?
-Where are their opportunities to work together to address risk if not responsible?
-What are some options to address these risks? (Options for treatment)
-What are some barriers to treating these risks? (e.g., lack of downscaled data or funding to mitigate risk)
-What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data)</p>
+<ul class="simple">
+<li><p>To conduct the study, we aimed to address the following questions:</p></li>
+<li><p>What is at risk? And what is the level of risk?</p></li>
+<li><p>Who is at risk? And what is their level of risk?</p></li>
+<li><p>Who is responsible for addressing that risk?</p></li>
+<li><p>Where are their opportunities to work together to address risk if not responsible?</p></li>
+<li><p>What are some options to address these risks? (Options for treatment)</p></li>
+<li><p>What are some barriers to treating these risks? (e.g., lack of downscaled data or funding to mitigate risk)</p></li>
+<li><p>What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data)</p></li>
+</ul>
 </section>
 <section id="methods">
 <h2><span class="section-number">3.4. </span>Methods<a class="headerlink" href="#methods" title="Link to this heading">#</a></h2>
-<p>We created three models [CA1] [VR2] based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output creates a report showing the workflow’s datasets, weighting, and visual representation. The only downside of using the suitability modeler is that it tended to crash the software when using large datasets. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
-In general, the workflow for the geospatial analysis was
-Download or link rest services for the datasets.
-Clip the dataset to the AOI.
-Upload the datasets to the model.
-Weight and transform each dataset.
-Run the model combining each weighted dataset.
-Perform additional analysis as needed, e.g., zonal statistics.
-Most datasets were downloaded from the Sierra Nevada Regional Resource Kit <span id="id1">[<a class="reference internal" href="bibliography.html#id11" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">Young-Hart <em>et al.</em>, 2024</a>]</span>, but others came from CAL FIRE’s Fire and Resource Assessment Program (FRAP) and national level datasets <span id="id2">[<a class="reference internal" href="bibliography.html#id13" title="US Census Bureau. Us census data. 2024. URL: https://data.census.gov//.">Bureau, 2024</a>]</span>. For the radar analysis, we used Sentinel-1 data, with images from March 2019 and March 2024, a five-year difference. The backscatter was set to -0.15 and polarization to vertical horizontal, sometimes called VH. The VH and backscatter settings do a better job of capturing tree canopy change. Radar can capture imagery through clouds and smoke and gives a good measure of surface roughness or detect where trees used to be when comparing images.
+<p>We created three models [CA1] [VR2] based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output creates a report showing the workflow’s datasets, weighting, and visual representation. The only downside of using the suitability modeler is that it tended to crash the software when using large datasets. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.</p>
+<p>In general, the workflow for the geospatial analysis was</p>
+<ol class="arabic simple">
+<li><p>Download or link rest services for the datasets.</p></li>
+<li><p>Clip the dataset to the AOI.</p></li>
+<li><p>Upload the datasets to the model.</p></li>
+<li><p>Weight and transform each dataset.</p></li>
+<li><p>Run the model combining each weighted dataset.</p></li>
+<li><p>Perform additional analysis as needed, e.g., zonal statistics.</p></li>
+</ol>
+<p>Most datasets were downloaded from the Sierra Nevada Regional Resource Kit <span id="id1">[<a class="reference internal" href="bibliography.html#id11" title="Laura Young-Hart, Peter Stine, Patricia Manley, and Carol Clark. Sierra nevada regional resource kit. 2024. URL: https://caregionalresourcekits.org//sierra.html/.">Young-Hart <em>et al.</em>, 2024</a>]</span>, but others came from CAL FIRE’s Fire and Resource Assessment Program (FRAP) and national level datasets <span id="id2">[<a class="reference internal" href="bibliography.html#id13" title="US Census Bureau. Us census data. 2024. URL: https://data.census.gov//.">Bureau, 2024</a>]</span>. For the radar analysis, we used Sentinel-1 data, with images from March 2019 and March 2024, a five-year difference. The backscatter was set to -0.15 and polarization to vertical horizontal, sometimes called VH. The VH and backscatter settings do a better job of capturing tree canopy change. Radar can capture imagery through clouds and smoke and gives a good measure of surface roughness or detect where trees used to be when comparing images.
 Generally, the risk for any analyses increased when moving from lower to higher elevations and agricultural to forested systems. This is unsurprising since we relied on datasets focusing on fire, forest, and topography. The analysis presented important considerations for the communities in the extreme northeast of the county, such as Camptonville, Dobbins, and Brownsville. Other datasets are cited in each section or within each figure below in the text.</p>
 </section>
 <section id="egress-risk">
