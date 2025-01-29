@@ -14,20 +14,27 @@ Like many counties in the Sierra Nevada foothills, Yuba County spreads across th
 :name: location
 Yuba County's location in California shows generalized vegetation categories.
 ```
-Like many counties across California, publicly managed forests in Yuba County experienced a shift in management over the past 30 years, which moved away from timber production due to ecosystem impacts and financial unsustainability. The result is more densely vegetated areas at risk for forest fires.
+
+Publicly managed forests in Yuba County experienced a shift in management over the past 30 years, which moved away from timber production due to ecosystem impacts and financial unsustainability. The result is more densely vegetated areas at risk for forest fires.
+
 Local officials, agencies, and communities want to improve forest conditions but face barriers. Mitigating more damaging wildfires is a priority for the County, communities, Yuba Watershed Protection and Firesafe Council, and Yuba County Water Agency.
+
 While areas surrounding Yuba County have seen catastrophic fires covering large geographic regions in the last decade, Yuba County has experienced smaller-scale fires. To show this, we analyzed Sentinel-1 radar data, which shows this striking difference in areas affected by fires from March 2019 to March 2023. We examined changes in the forest canopy in the landscapes surrounding Camptonville in Yuba County and Greenville in Plumas County. We found a difference of 7.5 km2 affected by fire in the Camptonville area of interest but a whopping two orders of magnitude greater difference of 1,047 km2 surrounding Greenville ({numref}`change`).
+
 
 ```{figure} /figures/change.png
 :height: 600px
 :name: change
 Radar change detection analysis from Landsat 8 imagery between 2019-24. Imagery and computing courtesy of USGS and Google Earth Engine.
 ```
+
 Water and electrical infrastructure are established in the foothills, serving the remote communities in East County and the more populated communities in West County. Clear roadway access and maintenance are critical for public safety; however, the needs and responsibilities vary across the region.
+
 We wanted to visually represent risk, treatability, responsibility, partnership, and priority. These questions led us to who and what is at risk and what the risk level is.
 
 ## Study Questions
-- To conduct the study, we aimed to address the following questions:
+To conduct the study, we aimed to address the following questions:
+
 - What is at risk? And what is the level of risk?
 - Who is at risk? And what is their level of risk?
 - Who is responsible for addressing that risk?
@@ -37,7 +44,7 @@ We wanted to visually represent risk, treatability, responsibility, partnership,
 - What is missing to address risk? (e.g., programs, funding, workforce, access, capacity, and data)
 
 ## Methods
-We created three models [CA1] [VR2] based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output creates a report showing the workflow's datasets, weighting, and visual representation. The only downside of using the suitability modeler is that it tended to crash the software when using large datasets. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
+We created three models based on available raster and vector data sets. The datasets were weighted in each circumstance according to the importance and impact on the community, infrastructure, or natural resources. We tended to use the suitability modeler tool in ArcGIS Pro since it easily uploaded the raster datasets, weighted them, and then combined them into a single model. Each model output creates a report showing the workflow's datasets, weighting, and visual representation. The only downside of using the suitability modeler is that it tended to crash the software when using large datasets. To address this issue, we clipped each dataset to a smaller area of interest (AOI) in the Yuba County region.
 
 In general, the workflow for the geospatial analysis was
 1. Download or link rest services for the datasets.
