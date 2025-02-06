@@ -36,9 +36,9 @@ This book is designed to help illustrate key factors in the county that impact f
 The book contains the following chapters:
 
 1. **Preface**. (This chapter) Introduces the Yuba Forest Health book and an overview of the chapters and agencies involved in forest health in Yuba County and the region.
-2. **Report**. This is a final report on Phase I of the Yuba Forest Health project. The project was designed as a pilot to enhance and accelerate funding and implementation of forest health and related business development projects in Yuba County.
-3. **SWOT**. A strength, weaknesses, opportunities, and threats analysis of the Yuba forest landscape and organizations.
-4. **Geospatial**. A geospatial analysis of communities and infrastructure at risk in Yuba County.
+2. **SWOT**. A strength, weaknesses, opportunities, and threats analysis of the Yuba forest landscape and organizations.
+3. **Geospatial**. A geospatial analysis of communities and infrastructure at risk in Yuba County.
+4. **Lessons Learned**. A summary of lessons learned while implementing the Yuba Forest Business Alliance Project. The project was designed as a pilot to enhance and accelerate funding and implementation of forest health and related business development projects in Yuba County.
 
 ![forest_canopy](forest_canopy.jpg)
 
