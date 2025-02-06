@@ -3,7 +3,7 @@
 Welcome to the Yuba County Forest Health Book! This book contains a final report on the activities completed for the Yuba Forest Health Project Phase I, generously funded by the Yuba Water Agency. The work was carried out by Keri Rinne, Vance Russell | 3point.xyz, Cherilyn Ashmead, and Allison Thomson | Yuba Watershed Protection and Fire Safe Council. 
 
 ```{figure} /figures/ywa.png
-:height: 150px
+:height: 100px
 :name: ywa
 
 ```
