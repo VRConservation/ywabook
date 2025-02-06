@@ -22,7 +22,7 @@ Areas of Focus:
 ## WOT
 The Weaknesses, Opportunities, and Threats have been grouped to highlight focus areas. Results were grouped into three categories: 1) Treatment and Thinning, 2) Leadership, and 3) Workforce and Wood Processing.
 
-### Treatment & Thinning
+### Treatments
 The need for additional acres treated on private property and along roadways was identified as a threat, weakness, and opportunity. Community members called out specific challenges and barriers, including affordability and access to vegetation thinning, landowners' inability to front the costs, landowner education and resistance, and a perceived threat of absentee landowner inaction. A second priority was improving ingress and egress safety through thinning and road widening.
 
 Areas of focus:
@@ -40,7 +40,7 @@ Areas of Focus:
 - A more coordinated approach involving the Forest Service, PG&E, Fire Safe Council, CAL FIRE, community groups, and entities such as the RCD would be beneficial
 - County-led study in areas lacking cell service and install early warning sirens in the foothills
 
-### Workforce & Wood Processing
+### Workforce & Processing
 Workforce and wood processing were highlighted as weaknesses and opportunities. Respondents shared perspectives that the local workforce needs to be increased for thinning. Diversifying treatment and wood processing through mobile sawmills and continued support for the Camptonville Community Partnership’s Forest Biomass Business Center (a bioenergy and wood products campus) was seen as an opportunity. An additional opportunity was continued treatment diversification through establishing a prescribed burn program like those in neighboring Placer, Nevada, and Butte Counties.
 
 Areas of Focus:
