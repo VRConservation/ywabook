@@ -6,7 +6,7 @@ In 2023 and 2024, Yuba Water Agency supported the [Forest Business Alliance](htt
 
 In these activities, the Forest Business Alliance project identified challenges specific to Yuba County in accelerating wildfire safety and the wood products and workforce development that support healthy forests. A focused case study combined stakeholder perspectives with geospatial representation of priority areas. The case study and final report gathered and presented opportunities, barriers, and challenges in Yuba County regarding forest health and short—and long-term options for a pathway forward.
 
-## Forest Business Alliance Activities in Yuba County 
+## Yuba County FBA
 A small team with expertise in forestry, business development, and grant writing designed and implemented the Forest Business Alliance project. The Yuba Watershed Protection and Fire Safe Council was the fiscal agent and hub of outreach and technical support activities. 
 
 The project specifically focused on four interconnected tasks: 
