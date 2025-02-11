@@ -91,14 +91,14 @@ Further areas of focus may be:
 
 Increased county capacity for vegetation treatment and wood processing can be reached through both short and long-term strategies:
 
-Short term:
+Short term
 - Localized, community workforce development that has equipment or training to create defensible space
 - An additional chipper program or crew based in the county or at the Yuba County RCD to augment efforts by YWPFSC.
 - Local contracting through the County or RCD with small, private businesses.
 - Develop small, private business opportunities with the Sierra Business Council training for forest workers.
 - Workshop on contracting with the County, RCD, or YWPFSC.
 
-Long term:
+Long term
 - Work with and through Yuba College for forestry-related jobs.
 - Prioritize hiring and capacity building at the local level.
 
